@@ -1,0 +1,3 @@
+[submodule "code/prospr"]
+	path = code/prospr
+	url = https://github.com/okkevaneck/prospr.git

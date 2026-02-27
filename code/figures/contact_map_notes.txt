@@ -1,0 +1,39 @@
+For 0.1 percent:
+==============
+Plotting 1 instances of lenght 10
+Plotting 9 instances of lenght 15
+Plotting 15 instances of lenght 20
+Plotting 20 instances of lenght 25
+Plotting 20 instances of lenght 30
+
+For 0.5 percent:
+================
+Plotting 4 instances of lenght 10
+Plotting 45 instances of lenght 15
+Plotting 77 instances of lenght 20
+Plotting 103 instances of lenght 25
+Plotting 97 instances of lenght 30
+
+For 1 percent:
+==============
+Plotting 9 instances of lenght 10
+Plotting 91 instances of lenght 15
+Plotting 154 instances of lenght 20
+Plotting 206 instances of lenght 25
+Plotting 194 instances of lenght 30
+
+For 5 percent:
+==============
+Plotting 46 instances of lenght 10
+Plotting 457 instances of lenght 15
+Plotting 771 instances of lenght 20
+Plotting 1032 instances of lenght 25
+Plotting 974 instances of lenght 30
+
+Total dataset:
+==============
+Length 10:  1024
+Length 15:  9152
+Length 20: 15422
+Length 25: 20652
+Length 30: 25932
