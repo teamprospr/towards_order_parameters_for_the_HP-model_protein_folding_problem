@@ -1,0 +1,1747 @@
+Job folder (/var/ear/1815090700) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1815090700) doesn't exist (No such file or directory), creating it...
+[EARL][tcn180][3583261] --- EARL INIT [PID: 3583261] [MASTER: 1] ---
+tcn180:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn180][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 24 processes to 128 CPUs...
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn180'/'18150907'/'0'/'3583261'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 24/1/24/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[3/24]	I'm online..
+[21/24]	I'm online..
+[22/24]	I'm online..
+[5/24]	I'm online..
+[11/24]	I'm online..
+[9/24]	I'm online..
+[13/24]	I'm online..
+[15/24]	I'm online..
+[16/24]	I'm online..
+[24/24]	I'm online..
+[4/24]	I'm online..
+[7/24]	I'm online..
+[10/24]	I'm online..
+[20/24]	I'm online..
+[8/24]	I'm online..
+[6/24]	I'm online..
+[19/24]	I'm online..
+[12/24]	I'm online..
+[14/24]	I'm online..
+[18/24]	I'm online..
+[1/24]	I'm online..
+[23/24]	I'm online..
+[2/24]	I'm online..
+[17/24]	I'm online..
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 14 sec.: [32mLoop time: 1.000s DC Power: [35m150.2W[32m DRAM power: 0.00W PCK power: 150.21W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz Next Frequency 2.60
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.05GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 0 syscr 44 syscw 0 read_bytes 0 write_bytes 8192
+	Aggregated application's node CPU util.: 2350
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 25 sec.: [32mLoop time: 1.100s DC Power: [35m147.0W[32m DRAM power: 0.00W PCK power: 146.96W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 51018 wchar 583 syscr 95 syscw 21 read_bytes 0 write_bytes 32768
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 36 sec.: [32mLoop time: 1.100s DC Power: [35m144.3W[32m DRAM power: 0.00W PCK power: 144.28W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 47 sec.: [32mLoop time: 1.100s DC Power: [35m141.0W[32m DRAM power: 0.00W PCK power: 140.98W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 58 sec.: [32mLoop time: 1.100s DC Power: [35m139.2W[32m DRAM power: 0.00W PCK power: 139.18W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 69 sec.: [32mLoop time: 1.100s DC Power: [35m137.7W[32m DRAM power: 0.00W PCK power: 137.66W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 80 sec.: [32mLoop time: 1.100s DC Power: [35m136.4W[32m DRAM power: 0.00W PCK power: 136.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 91 sec.: [32mLoop time: 1.100s DC Power: [35m135.3W[32m DRAM power: 0.00W PCK power: 135.29W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 102 sec.: [32mLoop time: 1.100s DC Power: [35m134.0W[32m DRAM power: 0.00W PCK power: 133.99W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 567 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 113 sec.: [32mLoop time: 1.100s DC Power: [35m133.3W[32m DRAM power: 0.00W PCK power: 133.26W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 124 sec.: [32mLoop time: 1.100s DC Power: [35m132.7W[32m DRAM power: 0.00W PCK power: 132.65W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 135 sec.: [32mLoop time: 1.100s DC Power: [35m132.3W[32m DRAM power: 0.00W PCK power: 132.29W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 146 sec.: [32mLoop time: 1.100s DC Power: [35m131.8W[32m DRAM power: 0.00W PCK power: 131.83W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 157 sec.: [32mLoop time: 1.100s DC Power: [35m131.3W[32m DRAM power: 0.00W PCK power: 131.25W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 168 sec.: [32mLoop time: 1.100s DC Power: [35m131.0W[32m DRAM power: 0.00W PCK power: 130.99W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 179 sec.: [32mLoop time: 1.100s DC Power: [35m130.7W[32m DRAM power: 0.00W PCK power: 130.73W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 190 sec.: [32mLoop time: 1.100s DC Power: [35m130.5W[32m DRAM power: 0.00W PCK power: 130.50W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2351
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 201 sec.: [32mLoop time: 1.100s DC Power: [35m130.3W[32m DRAM power: 0.00W PCK power: 130.32W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 212 sec.: [32mLoop time: 1.100s DC Power: [35m130.1W[32m DRAM power: 0.00W PCK power: 130.12W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 223 sec.: [32mLoop time: 1.100s DC Power: [35m130.0W[32m DRAM power: 0.00W PCK power: 130.00W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 234 sec.: [32mLoop time: 1.100s DC Power: [35m129.9W[32m DRAM power: 0.00W PCK power: 129.89W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 245 sec.: [32mLoop time: 1.100s DC Power: [35m129.8W[32m DRAM power: 0.00W PCK power: 129.80W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 256 sec.: [32mLoop time: 1.100s DC Power: [35m129.7W[32m DRAM power: 0.00W PCK power: 129.73W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 267 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.65W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 278 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.61W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 289 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.55W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 300 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.53W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 311 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.49W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 322 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 333 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.526 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 344 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 356 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 367 sec.: [32mLoop time: 1.200s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.53W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 378 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.48W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 760 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 389 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.48W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 400 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 411 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.44W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 422 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 433 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.41W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.525 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 444 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 455 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 466 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 90112
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 477 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 488 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 499 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 510 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.524 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[17/24]	Finished my work in:	513.722696 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 521 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.519 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[4/24]	Finished my work in:	527.282699 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 532 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.508 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 543 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.498 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[21/24]	Finished my work in:	549.456688 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 554 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.495 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 565 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.490 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 576 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.490 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 1090 syscr 44 syscw 52 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[2/24]	Finished my work in:	583.539080 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 587 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.485 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[9/24]	Finished my work in:	590.354269 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 598 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.470 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 609 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.467 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+[15/24]	Finished my work in:	609.268492 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 620 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.460 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 631 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.44W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.460 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 642 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.460 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 653 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.460 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 664 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.460 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[24/24]	Finished my work in:	669.893938 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 675 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.457 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 686 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.453 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 697 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.452 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 708 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.452 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 719 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.452 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 54[0m
+[18/24]	Finished my work in:	727.022292 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 730 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.453 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 54[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 741 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.453 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[8/24]	Finished my work in:	743.309639 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 752 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.448 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 763 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 774 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 785 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 796 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 807 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.445 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 818 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 829 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 840 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 851 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 862 sec.: [32mLoop time: 1.100s DC Power: [35m129.7W[32m DRAM power: 0.00W PCK power: 129.71W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 873 sec.: [32mLoop time: 1.100s DC Power: [35m129.9W[32m DRAM power: 0.00W PCK power: 129.89W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 884 sec.: [32mLoop time: 1.100s DC Power: [35m129.8W[32m DRAM power: 0.00W PCK power: 129.83W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.446 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[14/24]	Finished my work in:	887.538834 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 895 sec.: [32mLoop time: 1.100s DC Power: [35m129.9W[32m DRAM power: 0.00W PCK power: 129.87W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.441 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 906 sec.: [32mLoop time: 1.100s DC Power: [35m129.8W[32m DRAM power: 0.00W PCK power: 129.78W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.439 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 917 sec.: [32mLoop time: 1.100s DC Power: [35m129.7W[32m DRAM power: 0.00W PCK power: 129.70W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.439 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+[16/24]	Finished my work in:	919.470207 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 928 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.64W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.434 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.04GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 939 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.59W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.433 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 950 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.55W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.433 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 961 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.52W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.433 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 972 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.433 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 983 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.433 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+[1/24]	Finished my work in:	990.497180 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 994 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.44W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.432 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 1119 syscr 44 syscw 53 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 48 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1005 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.427 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1016 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.41W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.427 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 761 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1027 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.427 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[7/24]	Finished my work in:	1031.526090 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1038 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.419 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.03GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1049 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1060 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1071 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1082 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1093 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.48W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1104 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1115 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.44W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.414 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1126 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1137 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1148 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1159 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.414 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1170 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1181 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1192 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.415 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[13/24]	Finished my work in:	1194.136773 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1203 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.410 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1214 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.409 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1225 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.409 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[19/24]	Finished my work in:	1227.451097 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1236 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.406 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1247 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.404 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1258 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.404 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[12/24]	Finished my work in:	1268.338613 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1269 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.404 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.02GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[10/24]	Finished my work in:	1276.080450 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1280 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.397 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1291 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.394 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1302 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1313 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1324 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1335 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[20/24]	Finished my work in:	1344.382587 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1346 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.45W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1357 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.393 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[11/24]	Finished my work in:	1363.852839 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1368 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.41W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.392 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2354
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[22/24]	Finished my work in:	1373.818908 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1379 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.386 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1390 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2351
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1401 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1412 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1423 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1434 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1445 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1456 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1467 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1478 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2354
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1489 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1500 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1511 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1522 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1533 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1544 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1555 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1566 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1577 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1588 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.45W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 762 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1599 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1610 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.41W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1621 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1632 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1643 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1654 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1665 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1676 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1687 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1698 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1709 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1720 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1731 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1742 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1753 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1764 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1775 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 86016
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1786 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1797 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 90112
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1808 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1819 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1830 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.45W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1841 sec.: [32mLoop time: 1.100s DC Power: [35m129.7W[32m DRAM power: 0.00W PCK power: 129.66W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1852 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.61W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1863 sec.: [32mLoop time: 1.100s DC Power: [35m129.6W[32m DRAM power: 0.00W PCK power: 129.55W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1874 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.53W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1885 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.50W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1896 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.47W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1907 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.44W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1918 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1929 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.41W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1940 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1951 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2355
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1962 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1973 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 90112
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1984 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 1995 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 94208
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2006 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 77824
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2017 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2028 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2039 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2050 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.48W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2061 sec.: [32mLoop time: 1.100s DC Power: [35m129.5W[32m DRAM power: 0.00W PCK power: 129.46W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2072 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.43W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2083 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2094 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.42W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2105 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.39W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2116 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.40W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2127 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2138 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.38W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2149 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.36W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 65536
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2160 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2171 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.384 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2182 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.37W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.383 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 86016
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[6/24]	Finished my work in:	2185.630579 us.
+[23/24]	Finished my work in:	2191.326148 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2193 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.380 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2204 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.379 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 90112
+	Aggregated application's node CPU util.: 2352
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2215 sec.: [32mLoop time: 1.100s DC Power: [35m129.3W[32m DRAM power: 0.00W PCK power: 129.34W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.379 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 73728
+	Aggregated application's node CPU util.: 2353
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[5/24]	Finished my work in:	2224.796509 us.
+EAR[3583261](hratio_solve_remaining_l30) at 2.60/1.00 in tcn180 MR[0] elapsed 2226 sec.: [32mLoop time: 1.100s DC Power: [35m129.4W[32m DRAM power: 0.00W PCK power: 129.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.379 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.01GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 763 wchar 569 syscr 44 syscw 20 read_bytes 0 write_bytes 69632
+	Aggregated application's node CPU util.: 2354
+	CPU temperature (celsius): socket 0: 49 socket 1: 55[0m
+[3/24]	Finished my work in:	2232.933418 us.
+[34m[tcn180][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------- Application Summary [tcn180] -------------------------------------------
+--- App id: hratio_solve_remaining_l30 / user id: ovaneck2 / account: vusei12999 / job.step: 18150907.0.3583261 ---
+
+
+(Appl. sign.) Wall time: 2232.975 s, CPU util.: 2352 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 24
+
+              CPI/TPI: 0.429/0.000, GB/s: 0.000, GFLOPS: 0.000, IO: 0.003 (MB/s)
+              DC/DRAM/PCK power: 129.979/0.000/130.011 (W) GFlops/Watts 0.000
+
+
+--------------------------------------------------------------------------------------------------------------------
+[15/24]	Finalized MPI..
+[13/24]	Finalized MPI..
+[14/24]	Finalized MPI..
+[16/24]	Finalized MPI..
+[24/24]	Finalized MPI..
+[17/24]	Finalized MPI..
+[9/24]	Finalized MPI..
+[20/24]	Finalized MPI..
+[12/24]	Finalized MPI..
+[10/24]	Finalized MPI..
+[11/24]	Finalized MPI..
+[7/24]	Finalized MPI..
+[22/24]	Finalized MPI..
+[23/24]	Finalized MPI..
+[8/24]	Finalized MPI..
+[19/24]	Finalized MPI..
+[18/24]	Finalized MPI..
+[21/24]	Finalized MPI..
+[3/24]	Finalized MPI..
+[5/24]	Finalized MPI..
+[6/24]	Finalized MPI..
+[4/24]	Finalized MPI..
+[1/24]	Finalized MPI..
+[1/24]	Merging results..
+[1/24]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_results/dfs_bnb.csv
+[2/24]	Finalized MPI..

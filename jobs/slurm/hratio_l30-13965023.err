@@ -1,0 +1,642 @@
+[EARL][tcn116][2021772] --- EARL INIT [PID: 2021772] [MASTER: 1] ---
+[34m[tcn116][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+[31/128]	I'm online..
+[56/128]	I'm online..
+[63/128]	I'm online..
+[95/128]	I'm online..
+[97/128]	I'm online..
+[118/128]	I'm online..
+[3/128]	I'm online..
+[12/128]	I'm online..
+[25/128]	I'm online..
+[78/128]	I'm online..
+[85/128]	I'm online..
+[122/128]	I'm online..
+[124/128]	I'm online..
+[50/128]	I'm online..
+[51/128]	I'm online..
+[77/128]	I'm online..
+[43/128]	I'm online..
+[102/128]	I'm online..
+[8/128]	I'm online..
+[82/128]	I'm online..
+[55/128]	I'm online..
+[53/128]	I'm online..
+[38/128]	I'm online..
+[37/128]	I'm online..
+[61/128]	I'm online..
+[35/128]	I'm online..
+[128/128]	I'm online..
+[44/128]	I'm online..
+[21/128]	I'm online..
+[87/128]	I'm online..
+[108/128]	I'm online..
+[120/128]	I'm online..
+[57/128]	I'm online..
+Mapping frequencies from 128 processes to 128 CPUs...
+[96/128]	I'm online..
+[7/128]	I'm online..
+[32/128]	I'm online..
+[46/128]	I'm online..
+[126/128]	I'm online..
+[100/128]	I'm online..
+[10/128]	I'm online..
+[18/128]	I'm online..
+[99/128]	I'm online..
+[105/128]	I'm online..
+[70/128]	I'm online..
+[98/128]	I'm online..
+[101/128]	I'm online..
+[29/128]	I'm online..
+[65/128]	I'm online..
+[59/128]	I'm online..
+[75/128]	I'm online..
+[93/128]	I'm online..
+[123/128]	I'm online..
+[14/128]	I'm online..
+[2/128]	I'm online..
+[114/128]	I'm online..
+[47/128]	I'm online..
+[89/128]	I'm online..
+[86/128]	I'm online..
+[17/128]	I'm online..
+[33/128]	I'm online..
+[74/128]	I'm online..
+[4/128]	I'm online..
+[119/128]	I'm online..
+[80/128]	I'm online..
+[83/128]	I'm online..
+[125/128]	I'm online..
+[73/128]	I'm online..
+[28/128]	I'm online..
+[69/128]	I'm online..
+[113/128]	I'm online..
+[76/128]	I'm online..
+[90/128]	I'm online..
+[54/128]	I'm online..
+[60/128]	I'm online..
+[42/128]	I'm online..
+[94/128]	I'm online..
+[104/128]	I'm online..
+[9/128]	I'm online..
+[81/128]	I'm online..
+[58/128]	I'm online..
+[79/128]	I'm online..
+[115/128]	I'm online..
+[66/128]	I'm online..
+[67/128]	I'm online..
+[45/128]	I'm online..
+[84/128]	I'm online..
+[11/128]	I'm online..
+[52/128]	I'm online..
+[24/128]	I'm online..
+[41/128]	I'm online..
+[22/128]	I'm online..
+[117/128]	I'm online..
+[48/128]	I'm online..
+[109/128]	I'm online..
+[116/128]	I'm online..
+[39/128]	I'm online..
+[5/128]	I'm online..
+[36/128]	I'm online..
+[110/128]	I'm online..
+[49/128]	I'm online..
+[71/128]	I'm online..
+[88/128]	I'm online..
+[111/128]	I'm online..
+[13/128]	I'm online..
+[91/128]	I'm online..
+[127/128]	I'm online..
+[26/128]	I'm online..
+[64/128]	I'm online..
+[68/128]	I'm online..
+[62/128]	I'm online..
+[112/128]	I'm online..
+[107/128]	I'm online..
+[72/128]	I'm online..
+[103/128]	I'm online..
+[106/128]	I'm online..
+[40/128]	I'm online..
+[27/128]	I'm online..
+[30/128]	I'm online..
+[20/128]	I'm online..
+[121/128]	I'm online..
+[92/128]	I'm online..
+[15/128]	I'm online..
+[23/128]	I'm online..
+[16/128]	I'm online..
+[6/128]	I'm online..
+[34/128]	I'm online..
+[19/128]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn116'/'13965023'/'0'/'2021772'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 128/1/128/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/128]	I'm online..
+[34m[tcn116][0][INFO] [0mWarning: Estimated power 278.37 W (DC vs CPU+GPU 1.00)
+[34m[tcn116][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn116] -----------------------------------
+--- App id: hratio_l30 / user id: ovaneck2 / account: vusei12999 / job.step: 13965023.0.2021772 ---
+
+
+(mpi_sig) Wall time: 0.184 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 44.4 %
+
+          tasks: 128
+
+          CPI/TPI: 0.410/142.537, GB/s: 4.803, GFLOPS: 0.000, IO: 5.977 (MB/s)
+          DC/DRAM/PCK power: 278.366/0.000/278.371 (W) GFlops/Watts 0.000
+
+
+----------------------------------------------------------------------------------------------------
+free(): invalid next size (fast)
+[tcn116:2021774] *** Process received signal ***
+[tcn116:2021774] Signal: Aborted (6)
+[tcn116:2021774] Signal code:  (-6)
+[tcn116:2021774] [ 0] /lib64/libc.so.6(+0x3e6f0)[0x151c32e886f0]
+[tcn116:2021774] [ 1] /lib64/libc.so.6(+0x8b94c)[0x151c32ed594c]
+[tcn116:2021774] [ 2] /lib64/libc.so.6(raise+0x16)[0x151c32e88646]
+[tcn116:2021774] [ 3] /lib64/libc.so.6(abort+0xd3)[0x151c32e727f3]
+[tcn116:2021774] [ 4] /lib64/libc.so.6(+0x29130)[0x151c32e73130]
+[tcn116:2021774] [ 5] /lib64/libc.so.6(+0x959f7)[0x151c32edf9f7]
+[tcn116:2021774] [ 6] /lib64/libc.so.6(+0x97303)[0x151c32ee1303]
+[tcn116:2021774] [ 7] /lib64/libc.so.6(free+0x55)[0x151c32ee3d35]
+[tcn116:2021774] [ 8] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_cleanup_lanes+0x291)[0x151c32485171]
+[tcn116:2021774] [ 9] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_destroy_internal+0x19)[0x151c32485269]
+[tcn116:2021774] [10] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nbx+0x2aa)[0x151c3248a80a]
+[tcn116:2021774] [11] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nb+0x35)[0x151c3248a885]
+[tcn116:2021774] [12] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs_nofence+0x65)[0x151c32b86e65]
+[tcn116:2021774] [13] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs+0x9)[0x151c32b86fb9]
+[tcn116:2021774] [14] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(mca_pml_ucx_del_procs+0x91)[0x151c33669dd1]
+[tcn116:2021774] [15] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa4f7d)[0x151c3346ef7d]
+[tcn116:2021774] [16] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize_cleanup_domain+0x4a)[0x151c32ad4aba]
+[tcn116:2021774] [17] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize+0x2f)[0x151c32ac737f]
+[tcn116:2021774] [18] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_rte_finalize+0x14b)[0x151c33467c3b]
+[tcn116:2021774] [19] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa602b)[0x151c3347002b]
+[tcn116:2021774] [20] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_instance_finalize+0xb5)[0x151c33471615]
+[tcn116:2021774] [21] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_finalize+0x20f)[0x151c33463fcf]
+[tcn116:2021774] [22] /opt/ear/current/lib/libear.ompi.so(ear_mpic_Finalize+0x1b)[0x151c315dc55d]
+[tcn116:2021774] [23] /opt/ear/current/lib/libearld.so(MPI_Finalize+0x14)[0x151c337cf7dd]
+[tcn116:2021774] [24] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x40773f]
+[tcn116:2021774] [25] /lib64/libc.so.6(+0x29590)[0x151c32e73590]
+[tcn116:2021774] [26] /lib64/libc.so.6(__libc_start_main+0x80)[0x151c32e73640]
+[tcn116:2021774] [27] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x408165]
+[tcn116:2021774] *** End of error message ***
+free(): invalid next size (fast)
+[tcn116:2021776] *** Process received signal ***
+[tcn116:2021776] Signal: Aborted (6)
+[tcn116:2021776] Signal code:  (-6)
+[tcn116:2021776] [ 0] /lib64/libc.so.6(+0x3e6f0)[0x15301223f6f0]
+[tcn116:2021776] [ 1] /lib64/libc.so.6(+0x8b94c)[0x15301228c94c]
+[tcn116:2021776] [ 2] /lib64/libc.so.6(raise+0x16)[0x15301223f646]
+[tcn116:2021776] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1530122297f3]
+[tcn116:2021776] [ 4] /lib64/libc.so.6(+0x29130)[0x15301222a130]
+[tcn116:2021776] [ 5] /lib64/libc.so.6(+0x959f7)[0x1530122969f7]
+[tcn116:2021776] [ 6] /lib64/libc.so.6(+0x97303)[0x153012298303]
+[tcn116:2021776] [ 7] /lib64/libc.so.6(free+0x55)[0x15301229ad35]
+[tcn116:2021776] [ 8] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_cleanup_lanes+0x291)[0x15301183c171]
+[tcn116:2021776] [ 9] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_destroy_internal+0x19)[0x15301183c269]
+[tcn116:2021776] [10] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nbx+0x2aa)[0x15301184180a]
+[tcn116:2021776] [11] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nb+0x35)[0x153011841885]
+[tcn116:2021776] [12] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs_nofence+0x65)[0x153011f3de65]
+[tcn116:2021776] [13] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs+0x9)[0x153011f3dfb9]
+[tcn116:2021776] [14] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(mca_pml_ucx_del_procs+0x91)[0x153012a20dd1]
+[tcn116:2021776] [15] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa4f7d)[0x153012825f7d]
+[tcn116:2021776] [16] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize_cleanup_domain+0x4a)[0x153011e8baba]
+[tcn116:2021776] [17] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize+0x2f)[0x153011e7e37f]
+[tcn116:2021776] [18] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_rte_finalize+0x14b)[0x15301281ec3b]
+[tcn116:2021776] [19] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa602b)[0x15301282702b]
+[tcn116:2021776] [20] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_instance_finalize+0xb5)[0x153012828615]
+[tcn116:2021776] [21] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_finalize+0x20f)[0x15301281afcf]
+[tcn116:2021776] [22] /opt/ear/current/lib/libear.ompi.so(ear_mpic_Finalize+0x1b)[0x15301099355d]
+[tcn116:2021776] [23] /opt/ear/current/lib/libearld.so(MPI_Finalize+0x14)[0x153012b867dd]
+[tcn116:2021776] [24] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x40773f]
+[tcn116:2021776] [25] /lib64/libc.so.6(+0x29590)[0x15301222a590]
+[tcn116:2021776] [26] /lib64/libc.so.6(__libc_start_main+0x80)[0x15301222a640]
+[tcn116:2021776] [27] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x408165]
+[tcn116:2021776] *** End of error message ***
+srun: error: tcn116: tasks 2,4: Aborted
+srun: Terminating StepId=13965023.0
+[2025-08-09T13:42:53.766] error: *** STEP 13965023.0 ON tcn116 CANCELLED AT 2025-08-09T13:42:53 DUE TO TASK FAILURE ***
+[2025-08-09T13:42:54.317] error:  mpi/pmix_v3: _errhandler: tcn116 [0]: pmixp_client_v2.c:211: Error handler invoked: status = -25, source = [slurm.pmix.13965023.0:2]
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: tcn116: task 1: Killed
+[2025-08-09T13:43:25.323] error:  mpi/pmix_v3: _errhandler: tcn116 [0]: pmixp_client_v2.c:211: Error handler invoked: status = -25, source = [slurm.pmix.13965023.0:1]
+srun: error: tcn116: tasks 0,3,5-127: Killed
+[EARL][tcn116][2024221] --- EARL INIT [PID: 2024221] [MASTER: 1] ---
+[34m[tcn116][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+[9/128]	I'm online..
+[29/128]	I'm online..
+[56/128]	I'm online..
+[58/128]	I'm online..
+[60/128]	I'm online..
+[61/128]	I'm online..
+[62/128]	I'm online..
+[83/128]	I'm online..
+[89/128]	I'm online..
+[90/128]	I'm online..
+[92/128]	I'm online..
+[99/128]	I'm online..
+[101/128]	I'm online..
+[102/128]	I'm online..
+[105/128]	I'm online..
+[12/128]	I'm online..
+[15/128]	I'm online..
+[16/128]	I'm online..
+[18/128]	I'm online..
+[39/128]	I'm online..
+[50/128]	I'm online..
+[108/128]	I'm online..
+[106/128]	I'm online..
+[111/128]	I'm online..
+[64/128]	I'm online..
+[13/128]	I'm online..
+[59/128]	I'm online..
+[109/128]	I'm online..
+[10/128]	I'm online..
+[26/128]	I'm online..
+[34/128]	I'm online..
+[45/128]	I'm online..
+[48/128]	I'm online..
+[25/128]	I'm online..
+[122/128]	I'm online..
+[36/128]	I'm online..
+[42/128]	I'm online..
+[21/128]	I'm online..
+[78/128]	I'm online..
+Mapping frequencies from 128 processes to 128 CPUs...
+[117/128]	I'm online..
+[112/128]	I'm online..
+[57/128]	I'm online..
+[100/128]	I'm online..
+[2/128]	I'm online..
+[55/128]	I'm online..
+[53/128]	I'm online..
+[24/128]	I'm online..
+[63/128]	I'm online..
+[81/128]	I'm online..
+[94/128]	I'm online..
+[118/128]	I'm online..
+[115/128]	I'm online..
+[17/128]	I'm online..
+[110/128]	I'm online..
+[103/128]	I'm online..
+[91/128]	I'm online..
+[119/128]	I'm online..
+[66/128]	I'm online..
+[86/128]	I'm online..
+[20/128]	I'm online..
+[71/128]	I'm online..
+[72/128]	I'm online..
+[44/128]	I'm online..
+[22/128]	I'm online..
+[6/128]	I'm online..
+[33/128]	I'm online..
+[77/128]	I'm online..
+[54/128]	I'm online..
+[96/128]	I'm online..
+[121/128]	I'm online..
+[123/128]	I'm online..
+[74/128]	I'm online..
+[98/128]	I'm online..
+[49/128]	I'm online..
+[79/128]	I'm online..
+[32/128]	I'm online..
+[104/128]	I'm online..
+[116/128]	I'm online..
+[38/128]	I'm online..
+[51/128]	I'm online..
+[120/128]	I'm online..
+[30/128]	I'm online..
+[95/128]	I'm online..
+[5/128]	I'm online..
+[114/128]	I'm online..
+[41/128]	I'm online..
+[52/128]	I'm online..
+[113/128]	I'm online..
+[35/128]	I'm online..
+[85/128]	I'm online..
+[19/128]	I'm online..
+[124/128]	I'm online..
+[87/128]	I'm online..
+[84/128]	I'm online..
+[46/128]	I'm online..
+[65/128]	I'm online..
+[43/128]	I'm online..
+[97/128]	I'm online..
+[27/128]	I'm online..
+[37/128]	I'm online..
+[3/128]	I'm online..
+[7/128]	I'm online..
+[68/128]	I'm online..
+[125/128]	I'm online..
+[128/128]	I'm online..
+[127/128]	I'm online..
+[31/128]	I'm online..
+[40/128]	I'm online..
+[47/128]	I'm online..
+[82/128]	I'm online..
+[73/128]	I'm online..
+[107/128]	I'm online..
+[126/128]	I'm online..
+[4/128]	I'm online..
+[88/128]	I'm online..
+[67/128]	I'm online..
+[11/128]	I'm online..
+[93/128]	I'm online..
+[28/128]	I'm online..
+[8/128]	I'm online..
+[70/128]	I'm online..
+[80/128]	I'm online..
+[69/128]	I'm online..
+[23/128]	I'm online..
+[14/128]	I'm online..
+[76/128]	I'm online..
+[75/128]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn116'/'13965023'/'1'/'2024221'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 128/1/128/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/128]	I'm online..
+[34m[tcn116][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn116] -----------------------------------
+--- App id: hratio_l30 / user id: ovaneck2 / account: vusei12999 / job.step: 13965023.1.2024221 ---
+
+
+(mpi_sig) Wall time: 2.424 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 34.9 %
+
+          tasks: 128
+
+          CPI/TPI: 0.390/343.067, GB/s: 4.042, GFLOPS: 0.000, IO: 16.115 (MB/s)
+          DC/DRAM/PCK power: 294.143/0.000/233.363 (W) GFlops/Watts 0.000
+
+
+----------------------------------------------------------------------------------------------------
+free(): invalid next size (fast)
+[tcn116:2024223] *** Process received signal ***
+[tcn116:2024223] Signal: Aborted (6)
+[tcn116:2024223] Signal code:  (-6)
+[tcn116:2024223] [ 0] /lib64/libc.so.6(+0x3e6f0)[0x1533203666f0]
+[tcn116:2024223] [ 1] /lib64/libc.so.6(+0x8b94c)[0x1533203b394c]
+[tcn116:2024223] [ 2] /lib64/libc.so.6(raise+0x16)[0x153320366646]
+[tcn116:2024223] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1533203507f3]
+[tcn116:2024223] [ 4] /lib64/libc.so.6(+0x29130)[0x153320351130]
+[tcn116:2024223] [ 5] /lib64/libc.so.6(+0x959f7)[0x1533203bd9f7]
+[tcn116:2024223] [ 6] /lib64/libc.so.6(+0x97303)[0x1533203bf303]
+[tcn116:2024223] [ 7] /lib64/libc.so.6(free+0x55)[0x1533203c1d35]
+[tcn116:2024223] [ 8] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_cleanup_lanes+0x291)[0x15331f963171]
+[tcn116:2024223] [ 9] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_destroy_internal+0x19)[0x15331f963269]
+[tcn116:2024223] [10] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nbx+0x2aa)[0x15331f96880a]
+[tcn116:2024223] [11] /sw/arch/RHEL9/EB_production/2024/software/UCX/1.16.0-GCCcore-13.3.0/lib64/libucp.so.0(ucp_ep_close_nb+0x35)[0x15331f968885]
+[tcn116:2024223] [12] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs_nofence+0x65)[0x153320064e65]
+[tcn116:2024223] [13] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_common_ucx_del_procs+0x9)[0x153320064fb9]
+[tcn116:2024223] [14] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(mca_pml_ucx_del_procs+0x91)[0x153320b47dd1]
+[tcn116:2024223] [15] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa4f7d)[0x15332094cf7d]
+[tcn116:2024223] [16] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize_cleanup_domain+0x4a)[0x15331ffb2aba]
+[tcn116:2024223] [17] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libopen-pal.so.80(opal_finalize+0x2f)[0x15331ffa537f]
+[tcn116:2024223] [18] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_rte_finalize+0x14b)[0x153320945c3b]
+[tcn116:2024223] [19] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(+0xa602b)[0x15332094e02b]
+[tcn116:2024223] [20] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_instance_finalize+0xb5)[0x15332094f615]
+[tcn116:2024223] [21] /sw/arch/RHEL9/EB_production/2024/software/OpenMPI/5.0.3-GCC-13.3.0/lib/libmpi.so.40(ompi_mpi_finalize+0x20f)[0x153320941fcf]
+[tcn116:2024223] [22] /opt/ear/current/lib/libear.ompi.so(ear_mpic_Finalize+0x1b)[0x15331eaba55d]
+[tcn116:2024223] [23] /opt/ear/current/lib/libearld.so(MPI_Finalize+0x14)[0x153320cad7dd]
+[tcn116:2024223] [24] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x40773f]
+[tcn116:2024223] [25] /lib64/libc.so.6(+0x29590)[0x153320351590]
+[tcn116:2024223] [26] /lib64/libc.so.6(__libc_start_main+0x80)[0x153320351640]
+[tcn116:2024223] [27] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi[0x408165]
+[tcn116:2024223] *** End of error message ***
+srun: error: tcn116: task 2: Aborted
+srun: Terminating StepId=13965023.1
+[2025-08-09T13:43:47.178] error: *** STEP 13965023.1 ON tcn116 CANCELLED AT 2025-08-09T13:43:47 DUE TO TASK FAILURE ***
+[2025-08-09T13:43:47.910] error:  mpi/pmix_v3: _errhandler: tcn116 [0]: pmixp_client_v2.c:211: Error handler invoked: status = -25, source = [slurm.pmix.13965023.1:2]
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2025-08-09T13:44:18.737] error:  mpi/pmix_v3: _errhandler: tcn116 [0]: pmixp_client_v2.c:211: Error handler invoked: status = -25, source = [slurm.pmix.13965023.1:70]
+srun: error: Timed out waiting for job step to complete
+srun: Step created for StepId=13965023.2
+[EARL][tcn116][2026717] --- EARL INIT [PID: 2026717] [MASTER: 1] ---
+[34m[tcn116][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+[21/128]	I'm online..
+[22/128]	I'm online..
+[26/128]	I'm online..
+[27/128]	I'm online..
+[34/128]	I'm online..
+[49/128]	I'm online..
+[58/128]	I'm online..
+[63/128]	I'm online..
+[65/128]	I'm online..
+[66/128]	I'm online..
+[71/128]	I'm online..
+[74/128]	I'm online..
+[108/128]	I'm online..
+[111/128]	I'm online..
+[112/128]	I'm online..
+[128/128]	I'm online..
+[4/128]	I'm online..
+[12/128]	I'm online..
+[18/128]	I'm online..
+[33/128]	I'm online..
+[57/128]	I'm online..
+[103/128]	I'm online..
+[38/128]	I'm online..
+[55/128]	I'm online..
+[79/128]	I'm online..
+[90/128]	I'm online..
+[101/128]	I'm online..
+[13/128]	I'm online..
+Mapping frequencies from 128 processes to 128 CPUs...
+[31/128]	I'm online..
+[43/128]	I'm online..
+[96/128]	I'm online..
+[9/128]	I'm online..
+[126/128]	I'm online..
+[3/128]	I'm online..
+[42/128]	I'm online..
+[75/128]	I'm online..
+[83/128]	I'm online..
+[115/128]	I'm online..
+[94/128]	I'm online..
+[40/128]	I'm online..
+[25/128]	I'm online..
+[44/128]	I'm online..
+[23/128]	I'm online..
+[104/128]	I'm online..
+[30/128]	I'm online..
+[67/128]	I'm online..
+[125/128]	I'm online..
+[120/128]	I'm online..
+[29/128]	I'm online..
+[64/128]	I'm online..
+[85/128]	I'm online..
+[2/128]	I'm online..
+[10/128]	I'm online..
+[70/128]	I'm online..
+[124/128]	I'm online..
+[122/128]	I'm online..
+[91/128]	I'm online..
+[105/128]	I'm online..
+[110/128]	I'm online..
+[51/128]	I'm online..
+[88/128]	I'm online..
+[109/128]	I'm online..
+[78/128]	I'm online..
+[114/128]	I'm online..
+[84/128]	I'm online..
+[99/128]	I'm online..
+[53/128]	I'm online..
+[93/128]	I'm online..
+[15/128]	I'm online..
+[39/128]	I'm online..
+[48/128]	I'm online..
+[61/128]	I'm online..
+[117/128]	I'm online..
+[76/128]	I'm online..
+[35/128]	I'm online..
+[16/128]	I'm online..
+[17/128]	I'm online..
+[100/128]	I'm online..
+[62/128]	I'm online..
+[37/128]	I'm online..
+[98/128]	I'm online..
+[11/128]	I'm online..
+[77/128]	I'm online..
+[86/128]	I'm online..
+[92/128]	I'm online..
+[121/128]	I'm online..
+[116/128]	I'm online..
+[19/128]	I'm online..
+[95/128]	I'm online..
+[127/128]	I'm online..
+[46/128]	I'm online..
+[59/128]	I'm online..
+[69/128]	I'm online..
+[68/128]	I'm online..
+[41/128]	I'm online..
+[14/128]	I'm online..
+[32/128]	I'm online..
+[6/128]	I'm online..
+[82/128]	I'm online..
+[87/128]	I'm online..
+[5/128]	I'm online..
+[73/128]	I'm online..
+[102/128]	I'm online..
+[80/128]	I'm online..
+[54/128]	I'm online..
+[119/128]	I'm online..
+[107/128]	I'm online..
+[52/128]	I'm online..
+[50/128]	I'm online..
+[123/128]	I'm online..
+[60/128]	I'm online..
+[8/128]	I'm online..
+[81/128]	I'm online..
+[24/128]	I'm online..
+[97/128]	I'm online..
+[36/128]	I'm online..
+[28/128]	I'm online..
+[56/128]	I'm online..
+[45/128]	I'm online..
+[106/128]	I'm online..
+[113/128]	I'm online..
+[72/128]	I'm online..
+[118/128]	I'm online..
+[20/128]	I'm online..
+[7/128]	I'm online..
+[89/128]	I'm online..
+[47/128]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn116'/'13965023'/'2'/'2026717'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 128/1/128/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/128]	I'm online..
+Warning, going to time guided because low number of MPI calls per second current 2.000000 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2025-08-09T13:44:54.724] error: *** JOB 13965023 ON tcn116 CANCELLED AT 2025-08-09T13:44:54 DUE to SIGNAL Terminated ***
+[2025-08-09T13:44:54.725] error: *** STEP 13965023.2 ON tcn116 CANCELLED AT 2025-08-09T13:44:54 DUE to SIGNAL Terminated ***

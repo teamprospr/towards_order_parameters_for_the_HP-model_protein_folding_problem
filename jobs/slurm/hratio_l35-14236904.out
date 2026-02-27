@@ -1,0 +1,29 @@
+Job: hratio_l35
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l35_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+Processing H11..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H11
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+
+JOB STATISTICS
+==============
+Job ID: 14236904
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 639-17:46:40 core-walltime
+Job Wall-clock time: 4-23:57:05
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 224.00 GB (224.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

@@ -1,0 +1,66 @@
+Job: hratio_l30
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+TMP_RES_PATH: /scratch-local/ovaneck2.11735359/hratio_l30_results
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+Processing H0..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11735359/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H0
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H0 in 0.000821
+Processing H1..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11735359/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H1
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H1 in 0.000674
+Processing H10..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11735359/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H10
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H10 in 321150
+Processing H11..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11735359/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H11
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Processing H12..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11735359/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H12
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+
+JOB STATISTICS
+==============
+Job ID: 11735359
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 631-15:43:15
+CPU Efficiency: 98.69% of 640-00:10:40 core-walltime
+Job Wall-clock time: 5-00:00:05
+Memory Utilized: 5.83 GB
+Memory Efficiency: 2.60% of 224.00 GB (224.00 GB/node)
+The task which had the largest memory consumption differs by 168.85% from the average task max memory consumption
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

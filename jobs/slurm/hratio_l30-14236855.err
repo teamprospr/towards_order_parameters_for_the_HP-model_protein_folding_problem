@@ -1,0 +1,2508 @@
+[EARL][tcn368][4067345] --- EARL INIT [PID: 4067345] [MASTER: 1] ---
+[34m[tcn368][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 128 processes to 128 CPUs...
+[65/128]	I'm online..
+[103/128]	I'm online..
+[122/128]	I'm online..
+[51/128]	I'm online..
+[48/128]	I'm online..
+[61/128]	I'm online..
+[68/128]	I'm online..
+[87/128]	I'm online..
+[109/128]	I'm online..
+[82/128]	I'm online..
+[106/128]	I'm online..
+[26/128]	I'm online..
+[38/128]	I'm online..
+[115/128]	I'm online..
+[46/128]	I'm online..
+[15/128]	I'm online..
+[44/128]	I'm online..
+[9/128]	I'm online..
+[30/128]	I'm online..
+[55/128]	I'm online..
+[86/128]	I'm online..
+[54/128]	I'm online..
+[33/128]	I'm online..
+[101/128]	I'm online..
+[118/128]	I'm online..
+[74/128]	I'm online..
+[70/128]	I'm online..
+[18/128]	I'm online..
+[60/128]	I'm online..
+[14/128]	I'm online..
+[53/128]	I'm online..
+[4/128]	I'm online..
+[126/128]	I'm online..
+[13/128]	I'm online..
+[83/128]	I'm online..
+[104/128]	I'm online..
+[27/128]	I'm online..
+[37/128]	I'm online..
+[105/128]	I'm online..
+[111/128]	I'm online..
+[52/128]	I'm online..
+[56/128]	I'm online..
+[102/128]	I'm online..
+[12/128]	I'm online..
+[39/128]	I'm online..
+[67/128]	I'm online..
+[125/128]	I'm online..
+[92/128]	I'm online..
+[96/128]	I'm online..
+[121/128]	I'm online..
+[25/128]	I'm online..
+[123/128]	I'm online..
+[63/128]	I'm online..
+[22/128]	I'm online..
+[91/128]	I'm online..
+[75/128]	I'm online..
+[20/128]	I'm online..
+[84/128]	I'm online..
+[76/128]	I'm online..
+[77/128]	I'm online..
+[7/128]	I'm online..
+[11/128]	I'm online..
+[69/128]	I'm online..
+[90/128]	I'm online..
+[6/128]	I'm online..
+[98/128]	I'm online..
+[120/128]	I'm online..
+[81/128]	I'm online..
+[71/128]	I'm online..
+[21/128]	I'm online..
+[108/128]	I'm online..
+[85/128]	I'm online..
+[45/128]	I'm online..
+[3/128]	I'm online..
+[17/128]	I'm online..
+[29/128]	I'm online..
+[64/128]	I'm online..
+[113/128]	I'm online..
+[73/128]	I'm online..
+[19/128]	I'm online..
+[94/128]	I'm online..
+[107/128]	I'm online..
+[124/128]	I'm online..
+[16/128]	I'm online..
+[99/128]	I'm online..
+[23/128]	I'm online..
+[100/128]	I'm online..
+[88/128]	I'm online..
+[31/128]	I'm online..
+[112/128]	I'm online..
+[127/128]	I'm online..
+[97/128]	I'm online..
+[57/128]	I'm online..
+[24/128]	I'm online..
+[89/128]	I'm online..
+[128/128]	I'm online..
+[43/128]	I'm online..
+[95/128]	I'm online..
+[41/128]	I'm online..
+[8/128]	I'm online..
+[49/128]	I'm online..
+[28/128]	I'm online..
+[116/128]	I'm online..
+[2/128]	I'm online..
+[59/128]	I'm online..
+[36/128]	I'm online..
+[79/128]	I'm online..
+[47/128]	I'm online..
+[58/128]	I'm online..
+[78/128]	I'm online..
+[93/128]	I'm online..
+[34/128]	I'm online..
+[42/128]	I'm online..
+[72/128]	I'm online..
+[32/128]	I'm online..
+[119/128]	I'm online..
+[114/128]	I'm online..
+[10/128]	I'm online..
+[40/128]	I'm online..
+[80/128]	I'm online..
+[66/128]	I'm online..
+[35/128]	I'm online..
+[5/128]	I'm online..
+[62/128]	I'm online..
+[110/128]	I'm online..
+[50/128]	I'm online..
+[117/128]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn368'/'14236855'/'0'/'4067345'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 128/1/128/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/128]	I'm online..
+Warning, going to time guided because low number of MPI calls per second current 2.000000 
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 34 sec.: [32mLoop time: 1.007s DC Power: [35m402.9W[32m DRAM power: 0.00W PCK power: 436.77W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.02MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 4.17GB/s L2 0.01GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4551 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 147456
+	Process OS info: (pid 4067345 state R utime 986 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 60 socket 1: 70[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 48 sec.: [32mLoop time: 1.009s DC Power: [35m495.0W[32m DRAM power: 0.00W PCK power: 437.80W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4551 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 62 socket 1: 72[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 61 sec.: [32mLoop time: 1.007s DC Power: [35m502.5W[32m DRAM power: 0.00W PCK power: 438.51W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4551 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 985 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 63 socket 1: 73[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 75 sec.: [32mLoop time: 1.007s DC Power: [35m506.5W[32m DRAM power: 0.00W PCK power: 439.06W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4553 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 64 socket 1: 74[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 88 sec.: [32mLoop time: 1.007s DC Power: [35m509.5W[32m DRAM power: 0.00W PCK power: 439.85W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4553 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 977 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 64 socket 1: 75[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 102 sec.: [32mLoop time: 1.007s DC Power: [35m455.3W[32m DRAM power: 0.00W PCK power: 440.20W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4553 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 45056
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 65 socket 1: 75[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 115 sec.: [32mLoop time: 1.007s DC Power: [35m456.6W[32m DRAM power: 0.00W PCK power: 440.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4553 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 979 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 65 socket 1: 76[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 128 sec.: [32mLoop time: 1.007s DC Power: [35m456.9W[32m DRAM power: 0.00W PCK power: 440.84W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 65 socket 1: 76[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 142 sec.: [32mLoop time: 1.007s DC Power: [35m512.9W[32m DRAM power: 0.00W PCK power: 441.21W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 976 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 66 socket 1: 76[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 155 sec.: [32mLoop time: 1.010s DC Power: [35m454.5W[32m DRAM power: 0.00W PCK power: 441.23W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 66 socket 1: 77[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 169 sec.: [32mLoop time: 1.007s DC Power: [35m513.3W[32m DRAM power: 0.00W PCK power: 441.09W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 66 socket 1: 77[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 182 sec.: [32mLoop time: 1.006s DC Power: [35m514.2W[32m DRAM power: 0.00W PCK power: 441.01W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 66 socket 1: 77[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 196 sec.: [32mLoop time: 1.007s DC Power: [35m514.1W[32m DRAM power: 0.00W PCK power: 441.08W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 66 socket 1: 77[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 209 sec.: [32mLoop time: 1.007s DC Power: [35m513.6W[32m DRAM power: 0.00W PCK power: 440.98W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.15GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 978 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 77[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 222 sec.: [32mLoop time: 1.007s DC Power: [35m513.9W[32m DRAM power: 0.00W PCK power: 440.90W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 236 sec.: [32mLoop time: 1.009s DC Power: [35m513.0W[32m DRAM power: 0.00W PCK power: 441.15W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 980 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 249 sec.: [32mLoop time: 1.007s DC Power: [35m513.9W[32m DRAM power: 0.00W PCK power: 440.88W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 263 sec.: [32mLoop time: 1.020s DC Power: [35m508.0W[32m DRAM power: 0.00W PCK power: 441.25W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 276 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 441.31W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 290 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 441.34W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 303 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 441.36W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 987 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 317 sec.: [32mLoop time: 1.008s DC Power: [35m514.5W[32m DRAM power: 0.00W PCK power: 441.36W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 330 sec.: [32mLoop time: 1.007s DC Power: [35m457.6W[32m DRAM power: 0.00W PCK power: 441.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.17GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 978 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 343 sec.: [32mLoop time: 1.007s DC Power: [35m457.6W[32m DRAM power: 0.00W PCK power: 441.55W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 357 sec.: [32mLoop time: 1.006s DC Power: [35m457.8W[32m DRAM power: 0.00W PCK power: 441.70W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 972 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 370 sec.: [32mLoop time: 1.006s DC Power: [35m457.8W[32m DRAM power: 0.00W PCK power: 441.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 384 sec.: [32mLoop time: 1.018s DC Power: [35m509.0W[32m DRAM power: 0.00W PCK power: 441.97W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.77GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 988 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 397 sec.: [32mLoop time: 1.007s DC Power: [35m457.5W[32m DRAM power: 0.00W PCK power: 441.75W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 78[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 411 sec.: [32mLoop time: 1.018s DC Power: [35m509.0W[32m DRAM power: 0.00W PCK power: 441.96W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 151552
+	Process OS info: (pid 4067345 state R utime 990 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 424 sec.: [32mLoop time: 1.007s DC Power: [35m515.5W[32m DRAM power: 0.00W PCK power: 441.84W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 438 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.00W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 451 sec.: [32mLoop time: 1.007s DC Power: [35m460.1W[32m DRAM power: 0.00W PCK power: 442.00W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 988 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 464 sec.: [32mLoop time: 1.007s DC Power: [35m517.5W[32m DRAM power: 0.00W PCK power: 442.00W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 478 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.15W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 972 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 491 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 441.98W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 505 sec.: [32mLoop time: 1.014s DC Power: [35m512.3W[32m DRAM power: 0.00W PCK power: 442.19W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 155648
+	Process OS info: (pid 4067345 state R utime 986 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 518 sec.: [32mLoop time: 1.007s DC Power: [35m458.4W[32m DRAM power: 0.00W PCK power: 441.99W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 532 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.16W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 20480
+	Process OS info: (pid 4067345 state R utime 979 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 545 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 441.95W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 559 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.02W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 572 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 442.07W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 585 sec.: [32mLoop time: 1.007s DC Power: [35m458.4W[32m DRAM power: 0.00W PCK power: 442.13W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 599 sec.: [32mLoop time: 1.007s DC Power: [35m459.0W[32m DRAM power: 0.00W PCK power: 442.35W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 971 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 612 sec.: [32mLoop time: 1.007s DC Power: [35m459.8W[32m DRAM power: 0.00W PCK power: 442.14W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 626 sec.: [32mLoop time: 1.016s DC Power: [35m513.7W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 147456
+	Process OS info: (pid 4067345 state R utime 987 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 639 sec.: [32mLoop time: 1.007s DC Power: [35m517.8W[32m DRAM power: 0.00W PCK power: 442.22W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 653 sec.: [32mLoop time: 1.019s DC Power: [35m510.4W[32m DRAM power: 0.00W PCK power: 442.28W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.84GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 666 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.15W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 980 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 680 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 441.86W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.35GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.07 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 693 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 441.91W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.31GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.06 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 707 sec.: [32mLoop time: 1.008s DC Power: [35m515.4W[32m DRAM power: 0.00W PCK power: 442.06W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.35GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.07 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 969 stime 1 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 720 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.29W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.17GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 151552
+	Process OS info: (pid 4067345 state R utime 979 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 733 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.20W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 747 sec.: [32mLoop time: 1.007s DC Power: [35m515.4W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 979 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 760 sec.: [32mLoop time: 1.007s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.27W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 774 sec.: [32mLoop time: 1.019s DC Power: [35m510.3W[32m DRAM power: 0.00W PCK power: 442.45W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 991 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 787 sec.: [32mLoop time: 1.007s DC Power: [35m517.5W[32m DRAM power: 0.00W PCK power: 442.28W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 801 sec.: [32mLoop time: 1.016s DC Power: [35m513.9W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 988 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 814 sec.: [32mLoop time: 1.007s DC Power: [35m402.6W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.16GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 155648
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 828 sec.: [32mLoop time: 1.007s DC Power: [35m459.2W[32m DRAM power: 0.00W PCK power: 442.26W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 841 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.32W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 147456
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 854 sec.: [32mLoop time: 1.006s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.23W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 868 sec.: [32mLoop time: 1.012s DC Power: [35m513.1W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 979 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 881 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.23W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 895 sec.: [32mLoop time: 1.011s DC Power: [35m513.8W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 982 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 908 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.29W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 922 sec.: [32mLoop time: 1.010s DC Power: [35m514.1W[32m DRAM power: 0.00W PCK power: 442.39W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 981 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 935 sec.: [32mLoop time: 1.007s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.36W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 949 sec.: [32mLoop time: 1.008s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.38W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 995 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 962 sec.: [32mLoop time: 1.007s DC Power: [35m517.7W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.16GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 975 sec.: [32mLoop time: 1.007s DC Power: [35m518.3W[32m DRAM power: 0.00W PCK power: 442.49W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 989 sec.: [32mLoop time: 1.007s DC Power: [35m517.4W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 977 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1002 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1016 sec.: [32mLoop time: 1.023s DC Power: [35m507.5W[32m DRAM power: 0.00W PCK power: 442.63W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1029 sec.: [32mLoop time: 1.007s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.45W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4554 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1043 sec.: [32mLoop time: 1.015s DC Power: [35m455.1W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 986 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1056 sec.: [32mLoop time: 1.007s DC Power: [35m401.3W[32m DRAM power: 0.00W PCK power: 442.30W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.16GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 147456
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1070 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.46W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.01 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1083 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.33W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1097 sec.: [32mLoop time: 1.007s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1110 sec.: [32mLoop time: 1.006s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.44W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 976 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1123 sec.: [32mLoop time: 1.007s DC Power: [35m517.1W[32m DRAM power: 0.00W PCK power: 442.54W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1137 sec.: [32mLoop time: 1.007s DC Power: [35m518.2W[32m DRAM power: 0.00W PCK power: 442.72W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 977 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1150 sec.: [32mLoop time: 1.006s DC Power: [35m518.8W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1164 sec.: [32mLoop time: 1.021s DC Power: [35m510.2W[32m DRAM power: 0.00W PCK power: 442.67W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1177 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 20480
+	Process OS info: (pid 4067345 state R utime 980 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1191 sec.: [32mLoop time: 1.015s DC Power: [35m512.3W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1204 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.38W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.15GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1218 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1231 sec.: [32mLoop time: 1.006s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1244 sec.: [32mLoop time: 1.007s DC Power: [35m516.2W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1258 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 978 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1271 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.28W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 143360
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1285 sec.: [32mLoop time: 1.020s DC Power: [35m509.6W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1298 sec.: [32mLoop time: 1.007s DC Power: [35m402.2W[32m DRAM power: 0.00W PCK power: 442.39W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1312 sec.: [32mLoop time: 1.020s DC Power: [35m511.9W[32m DRAM power: 0.00W PCK power: 442.70W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1325 sec.: [32mLoop time: 1.007s DC Power: [35m518.3W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1339 sec.: [32mLoop time: 1.007s DC Power: [35m517.2W[32m DRAM power: 0.00W PCK power: 442.46W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1352 sec.: [32mLoop time: 1.007s DC Power: [35m459.2W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1366 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 65536
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1379 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.71W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.78GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 978 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1392 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.38W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 20480
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1406 sec.: [32mLoop time: 1.011s DC Power: [35m514.4W[32m DRAM power: 0.00W PCK power: 442.65W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 983 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1419 sec.: [32mLoop time: 1.006s DC Power: [35m459.5W[32m DRAM power: 0.00W PCK power: 442.47W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1433 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.71W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 978 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1446 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.51W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1460 sec.: [32mLoop time: 1.006s DC Power: [35m516.9W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.84GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1473 sec.: [32mLoop time: 1.007s DC Power: [35m517.8W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1486 sec.: [32mLoop time: 1.007s DC Power: [35m518.6W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 77824
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1500 sec.: [32mLoop time: 1.006s DC Power: [35m518.6W[32m DRAM power: 0.00W PCK power: 442.79W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.15GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 977 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1513 sec.: [32mLoop time: 1.007s DC Power: [35m517.4W[32m DRAM power: 0.00W PCK power: 442.61W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1527 sec.: [32mLoop time: 1.023s DC Power: [35m508.7W[32m DRAM power: 0.00W PCK power: 442.67W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.84GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1540 sec.: [32mLoop time: 1.007s DC Power: [35m401.8W[32m DRAM power: 0.00W PCK power: 442.49W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1554 sec.: [32mLoop time: 1.023s DC Power: [35m508.5W[32m DRAM power: 0.00W PCK power: 442.61W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 990 stime 1 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1567 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1581 sec.: [32mLoop time: 1.016s DC Power: [35m511.9W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1594 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.51W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1608 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.54W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1621 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 441.99W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.40GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.08 Cache miss rates: L1 1.71GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 979 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1634 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.14W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.24GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.05 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 984 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1648 sec.: [32mLoop time: 1.010s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.70W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.45GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.09 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 957 stime 0 cutime 0 cstime 0 CPU usage 94)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1661 sec.: [32mLoop time: 1.007s DC Power: [35m459.8W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1675 sec.: [32mLoop time: 1.007s DC Power: [35m517.7W[32m DRAM power: 0.00W PCK power: 442.66W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1688 sec.: [32mLoop time: 1.006s DC Power: [35m517.0W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1702 sec.: [32mLoop time: 1.006s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.72W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1715 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 442.44W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1728 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.41W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1742 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1755 sec.: [32mLoop time: 1.007s DC Power: [35m458.4W[32m DRAM power: 0.00W PCK power: 442.49W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.72GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1769 sec.: [32mLoop time: 1.007s DC Power: [35m458.3W[32m DRAM power: 0.00W PCK power: 442.44W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1782 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1796 sec.: [32mLoop time: 1.007s DC Power: [35m458.7W[32m DRAM power: 0.00W PCK power: 442.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 24576
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1809 sec.: [32mLoop time: 1.007s DC Power: [35m517.0W[32m DRAM power: 0.00W PCK power: 442.62W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1822 sec.: [32mLoop time: 1.007s DC Power: [35m460.5W[32m DRAM power: 0.00W PCK power: 442.87W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1836 sec.: [32mLoop time: 1.012s DC Power: [35m458.4W[32m DRAM power: 0.00W PCK power: 442.64W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1849 sec.: [32mLoop time: 1.007s DC Power: [35m517.9W[32m DRAM power: 0.00W PCK power: 442.68W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.07GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.01 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1863 sec.: [32mLoop time: 1.008s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 989 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1876 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.64W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1890 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.80W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 987 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1903 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.54W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1916 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1930 sec.: [32mLoop time: 1.011s DC Power: [35m514.4W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 998 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1943 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.89W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1957 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1970 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.64W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1984 sec.: [32mLoop time: 1.007s DC Power: [35m517.3W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 28672
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 1997 sec.: [32mLoop time: 1.007s DC Power: [35m518.3W[32m DRAM power: 0.00W PCK power: 442.72W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2010 sec.: [32mLoop time: 1.007s DC Power: [35m518.5W[32m DRAM power: 0.00W PCK power: 442.92W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2024 sec.: [32mLoop time: 1.007s DC Power: [35m517.5W[32m DRAM power: 0.00W PCK power: 442.68W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 155648
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2037 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.78W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2051 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2064 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2078 sec.: [32mLoop time: 1.007s DC Power: [35m458.9W[32m DRAM power: 0.00W PCK power: 442.65W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2091 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.87W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2104 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.47W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2118 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2131 sec.: [32mLoop time: 1.007s DC Power: [35m459.1W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.72GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 988 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2145 sec.: [32mLoop time: 1.007s DC Power: [35m459.1W[32m DRAM power: 0.00W PCK power: 442.55W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2158 sec.: [32mLoop time: 1.007s DC Power: [35m459.8W[32m DRAM power: 0.00W PCK power: 442.78W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2172 sec.: [32mLoop time: 1.007s DC Power: [35m518.1W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2185 sec.: [32mLoop time: 1.007s DC Power: [35m518.4W[32m DRAM power: 0.00W PCK power: 442.80W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2198 sec.: [32mLoop time: 1.010s DC Power: [35m458.4W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 997 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2212 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.82W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2225 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.46W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2239 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.38W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2252 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.42W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2266 sec.: [32mLoop time: 1.007s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 53248
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2279 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.63W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2292 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.49W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2306 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.61W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2319 sec.: [32mLoop time: 1.007s DC Power: [35m459.4W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2333 sec.: [32mLoop time: 1.007s DC Power: [35m517.4W[32m DRAM power: 0.00W PCK power: 442.80W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2346 sec.: [32mLoop time: 1.007s DC Power: [35m518.4W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2360 sec.: [32mLoop time: 1.007s DC Power: [35m518.1W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 106496
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2373 sec.: [32mLoop time: 1.010s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2386 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 122880
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2400 sec.: [32mLoop time: 1.008s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.65W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2413 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2427 sec.: [32mLoop time: 1.007s DC Power: [35m459.1W[32m DRAM power: 0.00W PCK power: 442.73W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2440 sec.: [32mLoop time: 1.007s DC Power: [35m401.9W[32m DRAM power: 0.00W PCK power: 442.55W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2454 sec.: [32mLoop time: 1.007s DC Power: [35m459.4W[32m DRAM power: 0.00W PCK power: 442.70W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2467 sec.: [32mLoop time: 1.006s DC Power: [35m459.5W[32m DRAM power: 0.00W PCK power: 442.54W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2480 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 143360
+	Process OS info: (pid 4067345 state R utime 980 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2494 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.61W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.15GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2507 sec.: [32mLoop time: 1.007s DC Power: [35m518.1W[32m DRAM power: 0.00W PCK power: 442.75W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2521 sec.: [32mLoop time: 1.007s DC Power: [35m460.8W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.31GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.06 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 979 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2534 sec.: [32mLoop time: 1.008s DC Power: [35m517.0W[32m DRAM power: 0.00W PCK power: 442.27W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.36GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.07 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 958 stime 1 cutime 0 cstime 0 CPU usage 95)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2548 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.39W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.27GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.05 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 986 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2561 sec.: [32mLoop time: 1.006s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.32GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.06 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 975 stime 1 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2574 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.67W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 155648
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2588 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2601 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2615 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2628 sec.: [32mLoop time: 1.007s DC Power: [35m516.2W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2642 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2655 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.83GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2668 sec.: [32mLoop time: 1.006s DC Power: [35m517.1W[32m DRAM power: 0.00W PCK power: 442.90W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2682 sec.: [32mLoop time: 1.007s DC Power: [35m460.3W[32m DRAM power: 0.00W PCK power: 442.73W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 995 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 80[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2695 sec.: [32mLoop time: 1.007s DC Power: [35m518.4W[32m DRAM power: 0.00W PCK power: 442.88W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2709 sec.: [32mLoop time: 1.007s DC Power: [35m518.2W[32m DRAM power: 0.00W PCK power: 442.73W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.84GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2722 sec.: [32mLoop time: 1.007s DC Power: [35m517.1W[32m DRAM power: 0.00W PCK power: 442.72W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.78GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2736 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2749 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2762 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 143360
+	Process OS info: (pid 4067345 state R utime 988 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2776 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2789 sec.: [32mLoop time: 1.007s DC Power: [35m459.2W[32m DRAM power: 0.00W PCK power: 442.76W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2803 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2816 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2830 sec.: [32mLoop time: 1.006s DC Power: [35m516.9W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2843 sec.: [32mLoop time: 1.007s DC Power: [35m517.1W[32m DRAM power: 0.00W PCK power: 442.82W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.90GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 80[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2856 sec.: [32mLoop time: 1.007s DC Power: [35m460.7W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 155648
+	Process OS info: (pid 4067345 state R utime 986 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2870 sec.: [32mLoop time: 1.007s DC Power: [35m518.4W[32m DRAM power: 0.00W PCK power: 442.68W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2883 sec.: [32mLoop time: 1.007s DC Power: [35m517.7W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2897 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.53W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 983 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2910 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.62W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 991 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2924 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.52W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2937 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2950 sec.: [32mLoop time: 1.007s DC Power: [35m516.0W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4555 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 135168
+	Process OS info: (pid 4067345 state R utime 992 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2964 sec.: [32mLoop time: 1.009s DC Power: [35m514.6W[32m DRAM power: 0.00W PCK power: 442.62W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 982 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2977 sec.: [32mLoop time: 1.007s DC Power: [35m458.5W[32m DRAM power: 0.00W PCK power: 442.52W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 2991 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.47W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.79GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3004 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.45W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.83GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3018 sec.: [32mLoop time: 1.007s DC Power: [35m517.2W[32m DRAM power: 0.00W PCK power: 442.58W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3031 sec.: [32mLoop time: 1.007s DC Power: [35m518.1W[32m DRAM power: 0.00W PCK power: 442.55W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 983 stime 0 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3044 sec.: [32mLoop time: 1.007s DC Power: [35m518.2W[32m DRAM power: 0.00W PCK power: 442.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3058 sec.: [32mLoop time: 1.008s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.76W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 995 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3071 sec.: [32mLoop time: 1.007s DC Power: [35m459.2W[32m DRAM power: 0.00W PCK power: 442.35W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3085 sec.: [32mLoop time: 1.007s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.47W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3098 sec.: [32mLoop time: 1.007s DC Power: [35m401.2W[32m DRAM power: 0.00W PCK power: 442.24W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3112 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3125 sec.: [32mLoop time: 1.009s DC Power: [35m514.8W[32m DRAM power: 0.00W PCK power: 442.17W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3138 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.45W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.72GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3152 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.33W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3165 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.36W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 67 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3179 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.67W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3192 sec.: [32mLoop time: 1.007s DC Power: [35m517.4W[32m DRAM power: 0.00W PCK power: 442.48W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.82GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 992 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3206 sec.: [32mLoop time: 1.009s DC Power: [35m517.5W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3219 sec.: [32mLoop time: 1.007s DC Power: [35m460.4W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3232 sec.: [32mLoop time: 1.007s DC Power: [35m517.2W[32m DRAM power: 0.00W PCK power: 442.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3246 sec.: [32mLoop time: 1.007s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3259 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3273 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.43W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 987 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3286 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.39W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3299 sec.: [32mLoop time: 1.007s DC Power: [35m515.6W[32m DRAM power: 0.00W PCK power: 442.57W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3313 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.36W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3326 sec.: [32mLoop time: 1.007s DC Power: [35m515.7W[32m DRAM power: 0.00W PCK power: 442.52W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.73GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4556 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3340 sec.: [32mLoop time: 1.007s DC Power: [35m458.6W[32m DRAM power: 0.00W PCK power: 442.37W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3353 sec.: [32mLoop time: 1.007s DC Power: [35m459.2W[32m DRAM power: 0.00W PCK power: 442.61W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3367 sec.: [32mLoop time: 1.007s DC Power: [35m460.1W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.83GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3380 sec.: [32mLoop time: 1.007s DC Power: [35m461.0W[32m DRAM power: 0.00W PCK power: 442.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.77GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3393 sec.: [32mLoop time: 1.007s DC Power: [35m518.4W[32m DRAM power: 0.00W PCK power: 442.64W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 988 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3407 sec.: [32mLoop time: 1.011s DC Power: [35m515.4W[32m DRAM power: 0.00W PCK power: 442.69W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 998 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3420 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.78W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 135168
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3434 sec.: [32mLoop time: 1.007s DC Power: [35m516.7W[32m DRAM power: 0.00W PCK power: 442.64W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3447 sec.: [32mLoop time: 1.007s DC Power: [35m516.5W[32m DRAM power: 0.00W PCK power: 442.83W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 975 stime 0 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3461 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.44W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.20GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.04 Cache miss rates: L1 1.78GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3474 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 443.11W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.58GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.12 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 973 stime 2 cutime 0 cstime 0 CPU usage 96)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3488 sec.: [32mLoop time: 1.007s DC Power: [35m516.2W[32m DRAM power: 0.00W PCK power: 442.18W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.30GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.06 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 979 stime 1 cutime 0 cstime 0 CPU usage 97)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3501 sec.: [32mLoop time: 1.007s DC Power: [35m515.8W[32m DRAM power: 0.00W PCK power: 442.73W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.33GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.07 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 990 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3514 sec.: [32mLoop time: 1.006s DC Power: [35m515.9W[32m DRAM power: 0.00W PCK power: 442.59W
+	avg. CPUFreq: 2.58GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3528 sec.: [32mLoop time: 1.007s DC Power: [35m517.0W[32m DRAM power: 0.00W PCK power: 442.79W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.85GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3541 sec.: [32mLoop time: 1.006s DC Power: [35m518.1W[32m DRAM power: 0.00W PCK power: 442.83W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.78GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3555 sec.: [32mLoop time: 1.007s DC Power: [35m518.5W[32m DRAM power: 0.00W PCK power: 442.78W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3568 sec.: [32mLoop time: 1.007s DC Power: [35m518.3W[32m DRAM power: 0.00W PCK power: 442.82W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.89GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3581 sec.: [32mLoop time: 1.007s DC Power: [35m459.8W[32m DRAM power: 0.00W PCK power: 442.74W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 8192
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3595 sec.: [32mLoop time: 1.007s DC Power: [35m516.6W[32m DRAM power: 0.00W PCK power: 442.90W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3608 sec.: [32mLoop time: 1.007s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.55W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.12GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 49152
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3622 sec.: [32mLoop time: 1.006s DC Power: [35m516.9W[32m DRAM power: 0.00W PCK power: 442.71W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.81GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3635 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.56W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.370 VPI: 0.00, Mem. bwidth: 0.11GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 993 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3649 sec.: [32mLoop time: 1.007s DC Power: [35m459.1W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.08GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.74GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 12288
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3662 sec.: [32mLoop time: 1.007s DC Power: [35m459.3W[32m DRAM power: 0.00W PCK power: 442.50W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.13GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.88GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 993 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3675 sec.: [32mLoop time: 1.007s DC Power: [35m516.4W[32m DRAM power: 0.00W PCK power: 442.41W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.75GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 98304
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3689 sec.: [32mLoop time: 1.007s DC Power: [35m516.1W[32m DRAM power: 0.00W PCK power: 442.60W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.14GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.03 Cache miss rates: L1 1.86GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 1 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3702 sec.: [32mLoop time: 1.007s DC Power: [35m459.5W[32m DRAM power: 0.00W PCK power: 442.52W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.10GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.76GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 16384
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+EAR[4067345](hratio_l30) at 2.60/1.47 in tcn368 MR[0] elapsed 3716 sec.: [32mLoop time: 1.009s DC Power: [35m516.8W[32m DRAM power: 0.00W PCK power: 442.92W
+	avg. CPUFreq: 2.57GHz avg. IMCFreq: 1.47GHz Next Frequency 2.60
+	CPI: 0.371 VPI: 0.00, Mem. bwidth: 0.09GB/s GFLOPS: 0.00 I/O: 0.01MB/s No MPI  
+	TPI 0.02 Cache miss rates: L1 1.80GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 2
+	IO DATA: rchar 4557 wchar 6440 syscr 50 syscw 5 read_bytes 0 write_bytes 4096
+	Process OS info: (pid 4067345 state R utime 994 stime 0 cutime 0 cstime 0 CPU usage 98)
+	CPU temperature (celsius): socket 0: 68 socket 1: 79[0m
+[34m[tcn368][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn368] -----------------------------------
+--- App id: hratio_l30 / user id: ovaneck2 / account: vusei12999 / job.step: 14236855.0.4067345 ---
+
+
+(mpi_sig) Wall time: 3723.335 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 99.2 %
+
+          tasks: 128
+
+          CPI/TPI: 0.371/0.025, GB/s: 0.126, GFLOPS: 0.000, IO: 0.013 (MB/s)
+          DC/DRAM/PCK power: 498.568/0.000/442.191 (W) GFlops/Watts 0.000
+
+
+----------------------------------------------------------------------------------------------------
+[3/128]	Finalized MPI..
+[90/128]	Finalized MPI..
+[55/128]	Finalized MPI..
+[34/128]	Finalized MPI..
+[97/128]	Finalized MPI..
+[32/128]	Finalized MPI..
+[84/128]	Finalized MPI..
+[92/128]	Finalized MPI..
+[75/128]	Finalized MPI..
+[36/128]	Finalized MPI..
+[117/128]	Finalized MPI..
+[35/128]	Finalized MPI..
+[126/128]	Finalized MPI..
+[69/128]	Finalized MPI..
+[5/128]	Finalized MPI..
+[119/128]	Finalized MPI..
+[43/128]	Finalized MPI..
+[105/128]	Finalized MPI..
+[120/128]	Finalized MPI..
+[81/128]	Finalized MPI..
+[83/128]	Finalized MPI..
+[116/128]	Finalized MPI..
+[10/128]	Finalized MPI..
+[11/128]	Finalized MPI..
+[50/128]	Finalized MPI..
+[39/128]	Finalized MPI..
+[27/128]	Finalized MPI..
+[1/128]	Finalized MPI..
+[65/128]	Finalized MPI..
+[71/128]	Finalized MPI..
+[21/128]	Finalized MPI..
+[53/128]	Finalized MPI..
+[127/128]	Finalized MPI..
+[88/128]	Finalized MPI..
+[86/128]	Finalized MPI..
+[113/128]	Finalized MPI..
+[67/128]	Finalized MPI..
+[123/128]	Finalized MPI..
+[40/128]	Finalized MPI..
+[54/128]	Finalized MPI..
+[95/128]	Finalized MPI..
+[99/128]	Finalized MPI..
+[77/128]	Finalized MPI..
+[106/128]	Finalized MPI..
+[80/128]	Finalized MPI..
+[91/128]	Finalized MPI..
+[108/128]	Finalized MPI..
+[94/128]	Finalized MPI..
+[79/128]	Finalized MPI..
+[74/128]	Finalized MPI..
+[76/128]	Finalized MPI..
+[98/128]	Finalized MPI..
+[73/128]	Finalized MPI..
+[101/128]	Finalized MPI..
+[68/128]	Finalized MPI..
+[114/128]	Finalized MPI..
+[20/128]	Finalized MPI..
+[30/128]	Finalized MPI..
+[122/128]	Finalized MPI..
+[22/128]	Finalized MPI..
+[47/128]	Finalized MPI..
+[121/128]	Finalized MPI..
+[51/128]	Finalized MPI..
+[17/128]	Finalized MPI..
+[37/128]	Finalized MPI..
+[19/128]	Finalized MPI..
+[4/128]	Finalized MPI..
+[52/128]	Finalized MPI..
+[82/128]	Finalized MPI..
+[72/128]	Finalized MPI..
+[49/128]	Finalized MPI..
+[59/128]	Finalized MPI..
+[61/128]	Finalized MPI..
+[115/128]	Finalized MPI..
+[70/128]	Finalized MPI..
+[96/128]	Finalized MPI..
+[125/128]	Finalized MPI..
+[111/128]	Finalized MPI..
+[100/128]	Finalized MPI..
+[93/128]	Finalized MPI..
+[23/128]	Finalized MPI..
+[110/128]	Finalized MPI..
+[103/128]	Finalized MPI..
+[109/128]	Finalized MPI..
+[9/128]	Finalized MPI..
+[13/128]	Finalized MPI..
+[16/128]	Finalized MPI..
+[33/128]	Finalized MPI..
+[112/128]	Finalized MPI..
+[38/128]	Finalized MPI..
+[78/128]	Finalized MPI..
+[48/128]	Finalized MPI..
+[102/128]	Finalized MPI..
+[60/128]	Finalized MPI..
+[118/128]	Finalized MPI..
+[57/128]	Finalized MPI..
+[12/128]	Finalized MPI..
+[46/128]	Finalized MPI..
+[85/128]	Finalized MPI..
+[87/128]	Finalized MPI..
+[107/128]	Finalized MPI..
+[62/128]	Finalized MPI..
+[63/128]	Finalized MPI..
+[89/128]	Finalized MPI..
+[104/128]	Finalized MPI..
+[25/128]	Finalized MPI..
+[41/128]	Finalized MPI..
+[18/128]	Finalized MPI..
+[15/128]	Finalized MPI..
+[26/128]	Finalized MPI..
+[28/128]	Finalized MPI..
+[66/128]	Finalized MPI..
+[124/128]	Finalized MPI..
+[2/128]	Finalized MPI..
+[58/128]	Finalized MPI..
+[128/128]	Finalized MPI..
+[29/128]	Finalized MPI..
+[7/128]	Finalized MPI..
+[56/128]	Finalized MPI..
+[42/128]	Finalized MPI..
+[44/128]	Finalized MPI..
+[24/128]	Finalized MPI..
+[45/128]	Finalized MPI..
+[64/128]	Finalized MPI..
+[6/128]	Finalized MPI..
+[8/128]	Finalized MPI..
+[31/128]	Finalized MPI..
+[14/128]	Finalized MPI..

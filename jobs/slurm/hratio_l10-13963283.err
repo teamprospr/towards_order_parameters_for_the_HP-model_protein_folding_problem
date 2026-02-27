@@ -1,0 +1,924 @@
+[EARL][tcn21][877971] --- EARL INIT [PID: 877971] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[5/16]	I'm online..
+[11/16]	I'm online..
+[2/16]	I'm online..
+[4/16]	I'm online..
+[9/16]	I'm online..
+[10/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+[15/16]	I'm online..
+[16/16]	I'm online..
+[3/16]	I'm online..
+[6/16]	I'm online..
+[7/16]	I'm online..
+[8/16]	I'm online..
+[12/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'0'/'877971'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 160.34 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.0.877971 ---
+
+
+(mpi_sig) Wall time: 0.042 s, nominal freq.: 2.60 GHz, avg. freq: 2.55 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 52.4 %
+
+          tasks: 16
+
+          CPI/TPI: 0.434/12.641, GB/s: 2.064, GFLOPS: 0.000, IO: 3.372 (MB/s)
+          DC/DRAM/PCK power: 160.333/0.000/160.338 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[10/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[EARL][tcn21][878498] --- EARL INIT [PID: 878498] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[12/16]	I'm online..
+[16/16]	I'm online..
+[2/16]	I'm online..
+[4/16]	I'm online..
+[5/16]	I'm online..
+[8/16]	I'm online..
+[10/16]	I'm online..
+[3/16]	I'm online..
+[6/16]	I'm online..
+[7/16]	I'm online..
+[9/16]	I'm online..
+[15/16]	I'm online..
+[11/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'1'/'878498'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 157.64 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.1.878498 ---
+
+
+(mpi_sig) Wall time: 0.044 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 50.6 %
+
+          tasks: 16
+
+          CPI/TPI: 0.442/27.537, GB/s: 2.267, GFLOPS: 0.000, IO: 6.567 (MB/s)
+          DC/DRAM/PCK power: 157.636/0.000/157.637 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[15/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[EARL][tcn21][879026] --- EARL INIT [PID: 879026] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[7/16]	I'm online..
+[8/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+[16/16]	I'm online..
+[6/16]	I'm online..
+[9/16]	I'm online..
+[5/16]	I'm online..
+[15/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[10/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+[2/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'2'/'879026'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 164.31 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.2.879026 ---
+
+
+(mpi_sig) Wall time: 0.045 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 62.0 %
+
+          tasks: 16
+
+          CPI/TPI: 0.418/3.316, GB/s: 1.644, GFLOPS: 0.000, IO: 3.124 (MB/s)
+          DC/DRAM/PCK power: 164.307/0.000/164.313 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[11/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[EARL][tcn21][879556] --- EARL INIT [PID: 879556] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[3/16]	I'm online..
+[4/16]	I'm online..
+[8/16]	I'm online..
+[15/16]	I'm online..
+[9/16]	I'm online..
+[10/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+[16/16]	I'm online..
+[7/16]	I'm online..
+[5/16]	I'm online..
+[6/16]	I'm online..
+[2/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'3'/'879556'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 163.17 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.3.879556 ---
+
+
+(mpi_sig) Wall time: 0.052 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 58.0 %
+
+          tasks: 16
+
+          CPI/TPI: 0.419/18.647, GB/s: 2.124, GFLOPS: 0.000, IO: 6.811 (MB/s)
+          DC/DRAM/PCK power: 163.154/0.000/163.166 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[16/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[EARL][tcn21][880080] --- EARL INIT [PID: 880080] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[6/16]	I'm online..
+[7/16]	I'm online..
+[8/16]	I'm online..
+[13/16]	I'm online..
+[5/16]	I'm online..
+[10/16]	I'm online..
+[12/16]	I'm online..
+[14/16]	I'm online..
+[9/16]	I'm online..
+[11/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[2/16]	I'm online..
+[15/16]	I'm online..
+[16/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'4'/'880080'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 161.04 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.4.880080 ---
+
+
+(mpi_sig) Wall time: 0.042 s, nominal freq.: 2.60 GHz, avg. freq: 2.56 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 52.2 %
+
+          tasks: 16
+
+          CPI/TPI: 0.467/12.877, GB/s: 1.880, GFLOPS: 0.000, IO: 4.903 (MB/s)
+          DC/DRAM/PCK power: 161.024/0.000/161.036 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[12/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[EARL][tcn21][880669] --- EARL INIT [PID: 880669] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+[14/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[5/16]	I'm online..
+[8/16]	I'm online..
+[7/16]	I'm online..
+[13/16]	I'm online..
+Mapping frequencies from 16 processes to 128 CPUs...
+[6/16]	I'm online..
+[9/16]	I'm online..
+[15/16]	I'm online..
+[16/16]	I'm online..
+[10/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+[2/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'5'/'880669'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 155.23 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.5.880669 ---
+
+
+(mpi_sig) Wall time: 0.045 s, nominal freq.: 2.60 GHz, avg. freq: 2.56 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 41.5 %
+
+          tasks: 16
+
+          CPI/TPI: 0.492/12.086, GB/s: 2.145, GFLOPS: 0.000, IO: 5.774 (MB/s)
+          DC/DRAM/PCK power: 155.219/0.000/155.227 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[13/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[EARL][tcn21][881200] --- EARL INIT [PID: 881200] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[9/16]	I'm online..
+[10/16]	I'm online..
+[13/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[12/16]	I'm online..
+[14/16]	I'm online..
+[15/16]	I'm online..
+[11/16]	I'm online..
+[16/16]	I'm online..
+[8/16]	I'm online..
+[7/16]	I'm online..
+[2/16]	I'm online..
+[5/16]	I'm online..
+[6/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'6'/'881200'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 162.43 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.6.881200 ---
+
+
+(mpi_sig) Wall time: 0.048 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 25.3 %
+
+          tasks: 16
+
+          CPI/TPI: 0.501/7.892, GB/s: 2.177, GFLOPS: 0.000, IO: 9.513 (MB/s)
+          DC/DRAM/PCK power: 162.417/0.000/162.428 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[7/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[EARL][tcn21][881786] --- EARL INIT [PID: 881786] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[14/16]	I'm online..
+[16/16]	I'm online..
+[5/16]	I'm online..
+[6/16]	I'm online..
+[7/16]	I'm online..
+[8/16]	I'm online..
+[9/16]	I'm online..
+[10/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[13/16]	I'm online..
+[15/16]	I'm online..
+[2/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'7'/'881786'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 134.32 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.7.881786 ---
+
+
+(mpi_sig) Wall time: 0.067 s, nominal freq.: 2.60 GHz, avg. freq: 2.56 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 26.1 %
+
+          tasks: 16
+
+          CPI/TPI: 0.500/1.879, GB/s: 1.529, GFLOPS: 0.000, IO: 7.085 (MB/s)
+          DC/DRAM/PCK power: 134.313/0.000/134.317 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[10/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[EARL][tcn21][882323] --- EARL INIT [PID: 882323] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[3/16]	I'm online..
+[9/16]	I'm online..
+[10/16]	I'm online..
+[2/16]	I'm online..
+[4/16]	I'm online..
+[7/16]	I'm online..
+[12/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+[15/16]	I'm online..
+[8/16]	I'm online..
+[11/16]	I'm online..
+[16/16]	I'm online..
+[5/16]	I'm online..
+[6/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'8'/'882323'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 164.98 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.8.882323 ---
+
+
+(mpi_sig) Wall time: 0.046 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 20.2 %
+
+          tasks: 16
+
+          CPI/TPI: 0.539/3.413, GB/s: 1.837, GFLOPS: 0.000, IO: 4.408 (MB/s)
+          DC/DRAM/PCK power: 164.975/0.000/164.977 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[15/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[EARL][tcn21][882858] --- EARL INIT [PID: 882858] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[8/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[5/16]	I'm online..
+[6/16]	I'm online..
+[7/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+[13/16]	I'm online..
+[15/16]	I'm online..
+[16/16]	I'm online..
+[2/16]	I'm online..
+[9/16]	I'm online..
+[10/16]	I'm online..
+[14/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'9'/'882858'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 166.60 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.9.882858 ---
+
+
+(mpi_sig) Wall time: 0.046 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 49.0 %
+
+          tasks: 16
+
+          CPI/TPI: 0.472/2.506, GB/s: 1.853, GFLOPS: 0.000, IO: 3.583 (MB/s)
+          DC/DRAM/PCK power: 166.587/0.000/166.601 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[11/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[EARL][tcn21][883436] --- EARL INIT [PID: 883436] [MASTER: 1] ---
+[34m[tcn21][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[7/16]	I'm online..
+[8/16]	I'm online..
+[11/16]	I'm online..
+[3/16]	I'm online..
+[4/16]	I'm online..
+[6/16]	I'm online..
+[10/16]	I'm online..
+[12/16]	I'm online..
+[13/16]	I'm online..
+[14/16]	I'm online..
+[9/16]	I'm online..
+[2/16]	I'm online..
+[5/16]	I'm online..
+[15/16]	I'm online..
+[16/16]	I'm online..
+---------------- EAR 5.1 MPI enabled ----------------
+                   App/user id: 'hratio_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn21'/'13963283'/'10'/'883436'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn21][0][INFO] [0mWarning: Estimated power 164.63 W (DC vs CPU+GPU 1.00)
+[34m[tcn21][0][INFO] [0mScope APP master 1 elapsed 0.000000
+----------------------------------- Application Summary [tcn21] -----------------------------------
+--- App id: hratio_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 13963283.10.883436 ---
+
+
+(mpi_sig) Wall time: 0.050 s, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+          Avg. mpi_time/exec_time 66.1 %
+
+          tasks: 16
+
+          CPI/TPI: 0.452/5.004, GB/s: 2.096, GFLOPS: 0.000, IO: 5.559 (MB/s)
+          DC/DRAM/PCK power: 164.620/0.000/164.629 (W) GFlops/Watts 0.000
+
+
+---------------------------------------------------------------------------------------------------
+[11/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[5/16]	Finalized MPI..

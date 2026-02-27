@@ -1,0 +1,14 @@
+
+JOB STATISTICS
+==============
+Job ID: 13963197
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:14:56 core-walltime
+Job Wall-clock time: 00:00:07
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 224.00 GB (224.00 GB/node)

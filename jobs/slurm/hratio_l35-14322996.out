@@ -1,0 +1,30 @@
+Job: hratio_l35
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l35_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+Processing H27..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H27
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+Finished 35_H27 in 383119
+
+JOB STATISTICS
+==============
+Job ID: 14322996
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:07
+CPU Efficiency: 0.00% of 567-15:06:40 core-walltime
+Job Wall-clock time: 4-10:25:50
+Memory Utilized: 3.64 GB
+Memory Efficiency: 1.63% of 224.00 GB (224.00 GB/node)
+The task which had the largest memory consumption differs by 114.95% from the average task max memory consumption

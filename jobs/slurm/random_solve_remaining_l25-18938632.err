@@ -1,0 +1,147 @@
+Job folder (/var/ear/1893863200) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1893863200) doesn't exist (No such file or directory), creating it...
+[EARL][tcn310][316945] --- EARL INIT [PID: 316945] [MASTER: 1] ---
+tcn310:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn310][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[11/16]	I'm online..
+[12/16]	I'm online..
+[2/16]	I'm online..
+[9/16]	I'm online..
+[13/16]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'random_solve_remaining_l25'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn310'/'18938632'/'0'/'316945'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[15/16]	I'm online..
+[14/16]	I'm online..
+[16/16]	I'm online..
+[1/16]	I'm online..
+[3/16]	I'm online..
+[7/16]	I'm online..
+[8/16]	I'm online..
+[4/16]	I'm online..
+[5/16]	I'm online..
+[10/16]	I'm online..
+[6/16]	I'm online..
+[6/16]	Finished my work in:	0.201539 us.
+[9/16]	Finished my work in:	0.276864 us.
+[5/16]	Finished my work in:	0.905630 us.
+[8/16]	Finished my work in:	1.933963 us.
+[1/16]	Finished my work in:	5.961102 us.
+[14/16]	Finished my work in:	8.972314 us.
+[4/16]	Finished my work in:	13.992337 us.
+EAR[316945](random_solve_remaining_l25) at 2.60/1.00 in tcn310 MR[0] elapsed 14 sec.: [32mLoop time: 1.000s DC Power: [35m97.3W[32m DRAM power: 0.00W PCK power: 97.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz Next Frequency 2.60
+	CPI: 0.472 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.18GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 744 wchar 508 syscr 44 syscw 27 read_bytes 0 write_bytes 8192
+	Aggregated application's node CPU util.: 1568
+	CPU temperature (celsius): socket 0: 49 socket 1: 53[0m
+[12/16]	Finished my work in:	17.961031 us.
+[16/16]	Finished my work in:	18.610589 us.
+EAR[316945](random_solve_remaining_l25) at 2.60/1.00 in tcn310 MR[0] elapsed 25 sec.: [32mLoop time: 1.100s DC Power: [35m100.3W[32m DRAM power: 0.00W PCK power: 100.26W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.435 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.00GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 55695 wchar 583 syscr 99 syscw 21 read_bytes 0 write_bytes 24576
+	Aggregated application's node CPU util.: 1568
+	CPU temperature (celsius): socket 0: 49 socket 1: 53[0m
+[15/16]	Finished my work in:	25.479958 us.
+[10/16]	Finished my work in:	29.478049 us.
+[11/16]	Finished my work in:	33.592717 us.
+[2/16]	Finished my work in:	35.692607 us.
+EAR[316945](random_solve_remaining_l25) at 2.60/1.00 in tcn310 MR[0] elapsed 36 sec.: [32mLoop time: 1.100s DC Power: [35m102.7W[32m DRAM power: 0.00W PCK power: 102.72W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.413 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.15GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 746 wchar 568 syscr 44 syscw 20 read_bytes 0 write_bytes 49152
+	Aggregated application's node CPU util.: 1570
+	CPU temperature (celsius): socket 0: 49 socket 1: 54[0m
+[13/16]	Finished my work in:	41.627934 us.
+[3/16]	Finished my work in:	45.545571 us.
+EAR[316945](random_solve_remaining_l25) at 2.60/1.00 in tcn310 MR[0] elapsed 47 sec.: [32mLoop time: 1.100s DC Power: [35m105.7W[32m DRAM power: 0.00W PCK power: 105.70W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.390 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.67GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 746 wchar 566 syscr 44 syscw 20 read_bytes 0 write_bytes 49152
+	Aggregated application's node CPU util.: 1569
+	CPU temperature (celsius): socket 0: 49 socket 1: 54[0m
+EAR[316945](random_solve_remaining_l25) at 2.60/1.00 in tcn310 MR[0] elapsed 58 sec.: [32mLoop time: 1.100s DC Power: [35m107.3W[32m DRAM power: 0.00W PCK power: 107.33W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.380 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 0.67GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 747 wchar 566 syscr 44 syscw 20 read_bytes 0 write_bytes 49152
+	Aggregated application's node CPU util.: 1569
+	CPU temperature (celsius): socket 0: 50 socket 1: 54[0m
+[7/16]	Finished my work in:	61.036734 us.
+[34m[tcn310][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------ Application Summary [tcn310] ------------------------------------------
+--- App id: random_solve_remaining_l25 / user id: ovaneck2 / account: vusei12999 / job.step: 18938632.0.316945 ---
+
+
+(Appl. sign.) Wall time: 61.222 s, CPU util.: 1568 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 16
+
+              CPI/TPI: 0.416/0.000, GB/s: 0.000, GFLOPS: 0.000, IO: 0.030 (MB/s)
+              DC/DRAM/PCK power: 103.061/0.000/102.323 (W) GFlops/Watts 0.000
+
+
+------------------------------------------------------------------------------------------------------------------
+[6/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[8/16]	Finalized MPI..
+[7/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[1/16]	Merging results..
+[1/16]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/random_solve_remaining_l25_results/dfs_bnb.csv

@@ -1,0 +1,80 @@
+Job folder (/var/ear/1852900400) doesn't exist (No such file or directory), creating it...
+[EARL][tcn238][1444322] --- EARL INIT [PID: 1444322] [MASTER: 1] ---
+tcn238:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn238][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 7 processes to 128 CPUs...
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l30_h2'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn238'/'18529004'/'0'/'1444321'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 7/1/7/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+[3/7]	I'm online..
+EAR initialized successfully.
+[7/7]	I'm online..
+[6/7]	I'm online..
+[5/7]	I'm online..
+[4/7]	I'm online..
+[2/7]	I'm online..
+[1/7]	I'm online..
+[2/7]	Finished my work in:	0.022122 us.
+[4/7]	Finished my work in:	0.022385 us.
+[7/7]	Finished my work in:	0.022619 us.
+[1/7]	Finished my work in:	0.022803 us.
+[5/7]	Finished my work in:	0.023514 us.
+[6/7]	Finished my work in:	0.035760 us.
+[3/7]	Finished my work in:	0.264110 us.
+[34m[tcn238][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn238][0][INFO] [0mScope APP master 1 elapsed 0.000000
+-------------------------------------------- Application Summary [tcn238] --------------------------------------------
+--- App id: hratio_solve_remaining_l30_h2 / user id: ovaneck2 / account: vusei12999 / job.step: 18529004.0.1444321 ---
+
+
+(Appl. sign.) Wall time: 0.271 s, CPU util.: 634 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 7
+
+              CPI/TPI: 0.322/0.006, GB/s: 0.041, GFLOPS: 0.000, IO: 0.399 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+----------------------------------------------------------------------------------------------------------------------
+[6/7]	Finalized MPI..
+[7/7]	Finalized MPI..
+[4/7]	Finalized MPI..
+[5/7]	Finalized MPI..
+[1/7]	Finalized MPI..
+[1/7]	Merging results..
+[1/7]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_h2_results/dfs_bnb.csv
+[2/7]	Finalized MPI..
+[3/7]	Finalized MPI..

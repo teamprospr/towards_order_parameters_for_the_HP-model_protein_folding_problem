@@ -1,0 +1,318 @@
+Job folder (/var/ear/1894080100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1894080100) doesn't exist (No such file or directory), creating it...
+[EARL][tcn231][827561] --- EARL INIT [PID: 827561] [MASTER: 1] ---
+tcn231:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn231][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 86 processes to 128 CPUs...
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn231'/'18940801'/'0'/'827506'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 86/1/86/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[79/86]	I'm online..
+[4/86]	I'm online..
+[45/86]	I'm online..
+[51/86]	I'm online..
+[56/86]	I'm online..
+[54/86]	I'm online..
+[66/86]	I'm online..
+[18/86]	I'm online..
+[49/86]	I'm online..
+[19/86]	I'm online..
+[61/86]	I'm online..
+[16/86]	I'm online..
+[34/86]	I'm online..
+[86/86]	I'm online..
+[20/86]	I'm online..
+[35/86]	I'm online..
+[40/86]	I'm online..
+[48/86]	I'm online..
+[3/86]	I'm online..
+[39/86]	I'm online..
+[76/86]	I'm online..
+[21/86]	I'm online..
+[6/86]	I'm online..
+[17/86]	I'm online..
+[41/86]	I'm online..
+[78/86]	I'm online..
+[64/86]	I'm online..
+[71/86]	I'm online..
+[47/86]	I'm online..
+[52/86]	I'm online..
+[59/86]	I'm online..
+[42/86]	I'm online..
+[13/86]	I'm online..
+[8/86]	I'm online..
+[14/86]	I'm online..
+[5/86]	I'm online..
+[7/86]	I'm online..
+[70/86]	I'm online..
+[74/86]	I'm online..
+[43/86]	I'm online..
+[63/86]	I'm online..
+[53/86]	I'm online..
+[2/86]	I'm online..
+[12/86]	I'm online..
+[73/86]	I'm online..
+[22/86]	I'm online..
+[80/86]	I'm online..
+[46/86]	I'm online..
+[81/86]	I'm online..
+[44/86]	I'm online..
+[85/86]	I'm online..
+[50/86]	I'm online..
+[75/86]	I'm online..
+[37/86]	I'm online..
+[57/86]	I'm online..
+[25/86]	I'm online..
+[28/86]	I'm online..
+[68/86]	I'm online..
+[32/86]	I'm online..
+[65/86]	I'm online..
+[84/86]	I'm online..
+[11/86]	I'm online..
+[82/86]	I'm online..
+[55/86]	I'm online..
+[38/86]	I'm online..
+[62/86]	I'm online..
+[30/86]	I'm online..
+[9/86]	I'm online..
+[1/86]	I'm online..
+[72/86]	I'm online..
+[60/86]	I'm online..
+[31/86]	I'm online..
+[29/86]	I'm online..
+[83/86]	I'm online..
+[27/86]	I'm online..
+[23/86]	I'm online..
+[10/86]	I'm online..
+[26/86]	I'm online..
+[33/86]	I'm online..
+[36/86]	I'm online..
+[58/86]	I'm online..
+[77/86]	I'm online..
+[24/86]	I'm online..
+[69/86]	I'm online..
+[15/86]	I'm online..
+[67/86]	I'm online..
+[62/86]	Finished my work in:	0.074091 us.
+[51/86]	Finished my work in:	0.016828 us.
+[37/86]	Finished my work in:	0.015967 us.
+[82/86]	Finished my work in:	0.043363 us.
+[55/86]	Finished my work in:	0.017972 us.
+[44/86]	Finished my work in:	0.028009 us.
+[40/86]	Finished my work in:	0.031343 us.
+[50/86]	Finished my work in:	0.008575 us.
+[20/86]	Finished my work in:	0.041144 us.
+[36/86]	Finished my work in:	0.007223 us.
+[39/86]	Finished my work in:	0.013866 us.
+[19/86]	Finished my work in:	0.006606 us.
+[17/86]	Finished my work in:	0.029686 us.
+[75/86]	Finished my work in:	0.032119 us.
+[3/86]	Finished my work in:	0.015966 us.
+[4/86]	Finished my work in:	0.016876 us.
+[45/86]	Finished my work in:	0.002973 us.
+[35/86]	Finished my work in:	0.011814 us.
+[13/86]	Finished my work in:	0.029653 us.
+[59/86]	Finished my work in:	0.028424 us.
+[47/86]	Finished my work in:	0.030161 us.
+[25/86]	Finished my work in:	0.022414 us.
+[21/86]	Finished my work in:	0.014363 us.
+[80/86]	Finished my work in:	0.014623 us.
+[30/86]	Finished my work in:	0.010341 us.
+[86/86]	Finished my work in:	0.006797 us.
+[81/86]	Finished my work in:	0.035313 us.
+[77/86]	Finished my work in:	0.002018 us.
+[28/86]	Finished my work in:	0.007298 us.
+[63/86]	Finished my work in:	0.023470 us.
+[41/86]	Finished my work in:	0.010051 us.
+[33/86]	Finished my work in:	0.014548 us.
+[8/86]	Finished my work in:	0.014899 us.
+[49/86]	Finished my work in:	0.020989 us.
+[18/86]	Finished my work in:	0.011782 us.
+[78/86]	Finished my work in:	0.013008 us.
+[65/86]	Finished my work in:	0.009104 us.
+[38/86]	Finished my work in:	0.017865 us.
+[52/86]	Finished my work in:	0.022406 us.
+[56/86]	Finished my work in:	0.008319 us.
+[58/86]	Finished my work in:	0.009180 us.
+[70/86]	Finished my work in:	0.019914 us.
+[7/86]	Finished my work in:	0.013307 us.
+[46/86]	Finished my work in:	0.017307 us.
+[42/86]	Finished my work in:	0.017653 us.
+[60/86]	Finished my work in:	0.027743 us.
+[64/86]	Finished my work in:	0.007964 us.
+[61/86]	Finished my work in:	0.018393 us.
+[5/86]	Finished my work in:	0.006240 us.
+[27/86]	Finished my work in:	0.028694 us.
+[43/86]	Finished my work in:	0.007615 us.
+[79/86]	Finished my work in:	0.018156 us.
+[32/86]	Finished my work in:	0.012828 us.
+[83/86]	Finished my work in:	0.000905 us.
+[29/86]	Finished my work in:	0.011930 us.
+[54/86]	Finished my work in:	0.015336 us.
+[34/86]	Finished my work in:	0.014929 us.
+[85/86]	Finished my work in:	0.013104 us.
+[76/86]	Finished my work in:	0.003290 us.
+[66/86]	Finished my work in:	0.003601 us.
+[31/86]	Finished my work in:	0.004560 us.
+[14/86]	Finished my work in:	0.006420 us.
+[16/86]	Finished my work in:	0.013017 us.
+[48/86]	Finished my work in:	0.009667 us.
+[71/86]	Finished my work in:	0.008281 us.
+[68/86]	Finished my work in:	0.003865 us.
+[74/86]	Finished my work in:	0.002454 us.
+[57/86]	Finished my work in:	0.006708 us.
+[84/86]	Finished my work in:	0.003690 us.
+[12/86]	Finished my work in:	0.005216 us.
+[67/86]	Finished my work in:	0.004506 us.
+[11/86]	Finished my work in:	0.003297 us.
+[23/86]	Finished my work in:	0.008679 us.
+[72/86]	Finished my work in:	0.005999 us.
+[1/86]	Finished my work in:	0.004924 us.
+[53/86]	Finished my work in:	0.004979 us.
+[22/86]	Finished my work in:	0.009206 us.
+[26/86]	Finished my work in:	0.005978 us.
+[69/86]	Finished my work in:	0.006823 us.
+[9/86]	Finished my work in:	0.007185 us.
+[24/86]	Finished my work in:	0.006429 us.
+[15/86]	Finished my work in:	0.006666 us.
+[10/86]	Finished my work in:	0.006352 us.
+[73/86]	Finished my work in:	0.005901 us.
+[6/86]	Finished my work in:	0.006104 us.
+[2/86]	Finished my work in:	0.006819 us.
+[34m[tcn231][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn231][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------ Application Summary [tcn231] ------------------------------------------
+--- App id: hratio_solve_remaining_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 18940801.0.827506 ---
+
+
+(Appl. sign.) Wall time: 0.412 s, CPU util.: 1483 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 86
+
+              CPI/TPI: 0.395/0.065, GB/s: 0.040, GFLOPS: 0.000, IO: 3.031 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+------------------------------------------------------------------------------------------------------------------
+[45/86]	Finalized MPI..
+[56/86]	Finalized MPI..
+[64/86]	Finalized MPI..
+[66/86]	Finalized MPI..
+[81/86]	Finalized MPI..
+[59/86]	Finalized MPI..
+[47/86]	Finalized MPI..
+[77/86]	Finalized MPI..
+[68/86]	Finalized MPI..
+[18/86]	Finalized MPI..
+[40/86]	Finalized MPI..
+[52/86]	Finalized MPI..
+[36/86]	Finalized MPI..
+[49/86]	Finalized MPI..
+[85/86]	Finalized MPI..
+[57/86]	Finalized MPI..
+[78/86]	Finalized MPI..
+[20/86]	Finalized MPI..
+[32/86]	Finalized MPI..
+[86/86]	Finalized MPI..
+[37/86]	Finalized MPI..
+[12/86]	Finalized MPI..
+[54/86]	Finalized MPI..
+[80/86]	Finalized MPI..
+[26/86]	Finalized MPI..
+[51/86]	Finalized MPI..
+[83/86]	Finalized MPI..
+[16/86]	Finalized MPI..
+[69/86]	Finalized MPI..
+[50/86]	Finalized MPI..
+[71/86]	Finalized MPI..
+[82/86]	Finalized MPI..
+[67/86]	Finalized MPI..
+[23/86]	Finalized MPI..
+[24/86]	Finalized MPI..
+[48/86]	Finalized MPI..
+[31/86]	Finalized MPI..
+[46/86]	Finalized MPI..
+[79/86]	Finalized MPI..
+[65/86]	Finalized MPI..
+[84/86]	Finalized MPI..
+[62/86]	Finalized MPI..
+[35/86]	Finalized MPI..
+[63/86]	Finalized MPI..
+[61/86]	Finalized MPI..
+[58/86]	Finalized MPI..
+[34/86]	Finalized MPI..
+[53/86]	Finalized MPI..
+[70/86]	Finalized MPI..
+[55/86]	Finalized MPI..
+[25/86]	Finalized MPI..
+[73/86]	Finalized MPI..
+[60/86]	Finalized MPI..
+[72/86]	Finalized MPI..
+[5/86]	Finalized MPI..
+[38/86]	Finalized MPI..
+[17/86]	Finalized MPI..
+[10/86]	Finalized MPI..
+[9/86]	Finalized MPI..
+[76/86]	Finalized MPI..
+[11/86]	Finalized MPI..
+[75/86]	Finalized MPI..
+[28/86]	Finalized MPI..
+[39/86]	Finalized MPI..
+[14/86]	Finalized MPI..
+[74/86]	Finalized MPI..
+[41/86]	Finalized MPI..
+[13/86]	Finalized MPI..
+[19/86]	Finalized MPI..
+[15/86]	Finalized MPI..
+[43/86]	Finalized MPI..
+[44/86]	Finalized MPI..
+[8/86]	Finalized MPI..
+[42/86]	Finalized MPI..
+[21/86]	Finalized MPI..
+[30/86]	Finalized MPI..
+[29/86]	Finalized MPI..
+[27/86]	Finalized MPI..
+[4/86]	Finalized MPI..
+[2/86]	Finalized MPI..
+[22/86]	Finalized MPI..
+[3/86]	Finalized MPI..
+[33/86]	Finalized MPI..
+[1/86]	Finalized MPI..
+[1/86]	Merging results..
+[6/86]	Finalized MPI..
+[1/86]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results/dfs_bnb.csv
+[7/86]	Finalized MPI..

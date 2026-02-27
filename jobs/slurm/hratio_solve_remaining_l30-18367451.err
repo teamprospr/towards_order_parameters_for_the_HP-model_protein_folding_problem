@@ -1,0 +1,314 @@
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836745100) doesn't exist (No such file or directory), creating it...
+[EARL][tcn79][2300707] --- EARL INIT [PID: 2300707] [MASTER: 1] ---
+tcn79:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn79][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 11 processes to 128 CPUs...
+[2/11]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+[3/11]	I'm online..
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn79'/'18367451'/'0'/'2300697'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+[1/11]	I'm online..
+    Tasks/nodes/ppn/node_ratio: 11/1/11/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[6/11]	I'm online..
+[4/11]	I'm online..
+[5/11]	I'm online..
+[9/11]	I'm online..
+[11/11]	I'm online..
+[10/11]	I'm online..
+[7/11]	I'm online..
+[8/11]	I'm online..
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+  what():  stoi
+  what():  stoi
+[tcn79:2300699] *** Process received signal ***
+[tcn79:2300699] Signal: Aborted (6)
+[tcn79:2300699] Signal code:  (-6)
+  what():  stoi
+[tcn79:2300700] *** Process received signal ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn79:2300706] *** Process received signal ***
+[tcn79:2300707] *** Process received signal ***
+[tcn79:2300707] Signal: Aborted (6)
+[tcn79:2300707] Signal code:  (-6)
+[tcn79:2300697] *** Process received signal ***
+[tcn79:2300697] Signal: Aborted (6)
+[tcn79:2300697] Signal code:  (-6)
+[tcn79:2300698] *** Process received signal ***
+[tcn79:2300698] Signal: Aborted (6)
+[tcn79:2300698] Signal code:  (-6)
+[tcn79:2300700] Signal: Aborted (6)
+[tcn79:2300700] Signal code:  (-6)
+  what():  stoi
+[tcn79:2300702] *** Process received signal ***
+[tcn79:2300702] Signal: Aborted (6)
+[tcn79:2300702] Signal code:  (-6)
+[tcn79:2300706] Signal: Aborted (6)
+[tcn79:2300706] Signal code:  (-6)
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn79:2300697] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14d819e24bf0]
+[tcn79:2300698] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14ffb7c74bf0]
+[tcn79:2300699] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14ec7ec8ebf0]
+[tcn79:2300700] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x152beb26bbf0]
+[tcn79:2300702] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14c654d19bf0]
+[tcn79:2300703] *** Process received signal ***
+[tcn79:2300703] Signal: Aborted (6)
+[tcn79:2300703] Signal code:  (-6)
+[tcn79:2300707] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x145e50359bf0]
+[tcn79:2300707] [ 1] /lib64/libc.so.6(+0x8bedc)[0x145e503a6edc]
+[tcn79:2300697] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14d819e71edc]
+[tcn79:2300698] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14ffb7cc1edc]
+[tcn79:2300698] [ 2] /lib64/libc.so.6(raise+0x16)[0x14ffb7c74b46]
+[tcn79:2300699] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14ec7ecdbedc]
+[tcn79:2300699] [ 2] /lib64/libc.so.6(raise+0x16)[0x14ec7ec8eb46]
+[tcn79:2300700] [ 1] /lib64/libc.so.6(+0x8bedc)[0x152beb2b8edc]
+[tcn79:2300700] [ 2] /lib64/libc.so.6(raise+0x16)[0x152beb26bb46]
+[tcn79:2300702] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14c654d66edc]
+[tcn79:2300702] [ 2] /lib64/libc.so.6(raise+0x16)[0x14c654d19b46]
+[tcn79:2300703] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14e57c10fbf0]
+[tcn79:2300706] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14e6fbde6bf0]
+[tcn79:2300706] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14e6fbe33edc]
+[tcn79:2300706] [ 2] /lib64/libc.so.6(raise+0x16)[0x14e6fbde6b46]
+[tcn79:2300697] [ 2] /lib64/libc.so.6(raise+0x16)[0x14d819e24b46]
+[tcn79:2300697] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14d819e0e833]
+[tcn79:2300698] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ffb7c5e833]
+[tcn79:2300699] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ec7ec78833]
+[tcn79:2300700] [ 3] /lib64/libc.so.6(abort+0xd3)[0x152beb255833]
+[tcn79:2300702] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14c654d03833]
+[tcn79:2300707] [ 2] /lib64/libc.so.6(raise+0x16)[0x145e50359b46]
+[tcn79:2300707] [ 3] /lib64/libc.so.6(abort+0xd3)[0x145e50343833]
+[tcn79:2300697] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14d81a1b1c0b]
+[tcn79:2300698] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14ffb8001c0b]
+[tcn79:2300699] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14ec7f01bc0b]
+[tcn79:2300700] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x152beb5f8c0b]
+[tcn79:2300702] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14c6550a6c0b]
+[tcn79:2300703] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14e57c15cedc]
+[tcn79:2300703] [ 2] /lib64/libc.so.6(raise+0x16)[0x14e57c10fb46]
+[tcn79:2300703] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14e57c0f9833]
+[tcn79:2300706] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14e6fbdd0833]
+[tcn79:2300706] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14e6fc173c0b]
+[tcn79:2300707] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x145e506e6c0b]
+[tcn79:2300707] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x145e506f615a]
+[tcn79:2300697] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14d81a1c115a]
+[tcn79:2300698] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14ffb801115a]
+[tcn79:2300699] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14ec7f02b15a]
+[tcn79:2300700] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x152beb60815a]
+[tcn79:2300702] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14c6550b615a]
+[tcn79:2300697] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14d81a1c11c5]
+[tcn79:2300698] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14ffb80111c5]
+[tcn79:2300699] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14ec7f02b1c5]
+[tcn79:2300700] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x152beb6081c5]
+[tcn79:2300702] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14c6550b61c5]
+[tcn79:2300702] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14c6550b6418]
+[tcn79:2300703] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14e57c49cc0b]
+[tcn79:2300703] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14e57c4ac15a]
+[tcn79:2300706] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14e6fc18315a]
+[tcn79:2300706] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14e6fc1831c5]
+[tcn79:2300706] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14e6fc183418]
+[tcn79:2300707] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x145e506f61c5]
+[tcn79:2300707] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x145e506f6418]
+[tcn79:2300697] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14d81a1c1418]
+[tcn79:2300698] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14ffb8011418]
+[tcn79:2300698] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14ffb80044d8]
+[tcn79:2300699] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14ec7f02b418]
+[tcn79:2300699] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14ec7f01e4d8]
+[tcn79:2300699] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300699] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300699] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300699] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300699] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300700] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x152beb608418]
+[tcn79:2300700] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x152beb5fb4d8]
+[tcn79:2300700] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300700] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300700] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300700] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300700] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300702] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14c6550a94d8]
+[tcn79:2300702] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300702] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300702] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300702] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300702] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300703] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14e57c4ac1c5]
+[tcn79:2300703] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14e57c4ac418]
+[tcn79:2300706] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14e6fc1764d8]
+[tcn79:2300706] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300706] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300706] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300706] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300706] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300707] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x145e506e94d8]
+[tcn79:2300707] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300707] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300707] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300707] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300707] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300707] [14] /lib64/libc.so.6(+0x295d0)[0x145e503445d0]
+[tcn79:2300707] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x145e50344680]
+[tcn79:2300707] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300707] *** End of error message ***
+[tcn79:2300697] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14d81a1b44d8]
+[tcn79:2300697] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300697] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300697] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300697] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300697] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300697] [14] /lib64/libc.so.6(+0x295d0)[0x14d819e0f5d0]
+[tcn79:2300697] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14d819e0f680]
+[tcn79:2300697] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300697] *** End of error message ***
+[tcn79:2300698] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300698] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300698] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300698] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300698] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300698] [14] /lib64/libc.so.6(+0x295d0)[0x14ffb7c5f5d0]
+[tcn79:2300698] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ffb7c5f680]
+[tcn79:2300698] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300698] *** End of error message ***
+[tcn79:2300699] [14] /lib64/libc.so.6(+0x295d0)[0x14ec7ec795d0]
+[tcn79:2300699] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ec7ec79680]
+[tcn79:2300699] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300699] *** End of error message ***
+[tcn79:2300700] [14] /lib64/libc.so.6(+0x295d0)[0x152beb2565d0]
+[tcn79:2300700] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x152beb256680]
+[tcn79:2300700] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300700] *** End of error message ***
+[tcn79:2300702] [14] /lib64/libc.so.6(+0x295d0)[0x14c654d045d0]
+[tcn79:2300702] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c654d04680]
+[tcn79:2300702] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300702] *** End of error message ***
+[tcn79:2300703] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14e57c49f4d8]
+[tcn79:2300703] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300703] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300703] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300703] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300703] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300703] [14] /lib64/libc.so.6(+0x295d0)[0x14e57c0fa5d0]
+[tcn79:2300706] [14] /lib64/libc.so.6(+0x295d0)[0x14e6fbdd15d0]
+[tcn79:2300706] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14e6fbdd1680]
+[tcn79:2300706] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300706] *** End of error message ***
+[tcn79:2300703] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14e57c0fa680]
+[tcn79:2300703] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300703] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn79:2300701] *** Process received signal ***
+[tcn79:2300701] Signal: Aborted (6)
+[tcn79:2300701] Signal code:  (-6)
+[tcn79:2300701] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x1533e3d52bf0]
+[tcn79:2300701] [ 1] /lib64/libc.so.6(+0x8bedc)[0x1533e3d9fedc]
+[tcn79:2300701] [ 2] /lib64/libc.so.6(raise+0x16)[0x1533e3d52b46]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn79:2300701] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1533e3d3c833]
+  what():  stoi
+[tcn79:2300704] *** Process received signal ***
+[tcn79:2300704] Signal: Aborted (6)
+[tcn79:2300704] Signal code:  (-6)
+[tcn79:2300701] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x1533e40dfc0b]
+[tcn79:2300701] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x1533e40ef15a]
+[tcn79:2300704] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14ffea2a9bf0]
+[tcn79:2300701] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x1533e40ef1c5]
+[tcn79:2300704] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14ffea2f6edc]
+[tcn79:2300701] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x1533e40ef418]
+[tcn79:2300704] [ 2] /lib64/libc.so.6(raise+0x16)[0x14ffea2a9b46]
+[tcn79:2300704] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ffea293833]
+[tcn79:2300701] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x1533e40e24d8]
+[tcn79:2300701] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300701] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300701] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300701] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300701] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300701] [14] /lib64/libc.so.6(+0x295d0)[0x1533e3d3d5d0]
+[tcn79:2300704] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14ffea636c0b]
+[tcn79:2300701] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x1533e3d3d680]
+[tcn79:2300701] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300701] *** End of error message ***
+[tcn79:2300704] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14ffea64615a]
+[tcn79:2300704] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14ffea6461c5]
+[tcn79:2300704] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14ffea646418]
+[tcn79:2300704] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14ffea6394d8]
+[tcn79:2300704] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300704] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300704] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300704] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300704] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn79:2300704] [14] /lib64/libc.so.6(+0x295d0)[0x14ffea2945d0]
+  what():  stoi
+[tcn79:2300704] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ffea294680]
+[tcn79:2300704] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300704] *** End of error message ***
+[tcn79:2300705] *** Process received signal ***
+[tcn79:2300705] Signal: Aborted (6)
+[tcn79:2300705] Signal code:  (-6)
+[tcn79:2300705] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x1546eff15bf0]
+[tcn79:2300705] [ 1] /lib64/libc.so.6(+0x8bedc)[0x1546eff62edc]
+[tcn79:2300705] [ 2] /lib64/libc.so.6(raise+0x16)[0x1546eff15b46]
+[tcn79:2300705] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1546efeff833]
+[tcn79:2300705] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x1546f02a2c0b]
+[tcn79:2300705] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x1546f02b215a]
+[tcn79:2300705] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x1546f02b21c5]
+[tcn79:2300705] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x1546f02b2418]
+[tcn79:2300705] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x1546f02a54d8]
+[tcn79:2300705] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41854a]
+[tcn79:2300705] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194c3]
+[tcn79:2300705] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bde5]
+[tcn79:2300705] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408762]
+[tcn79:2300705] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068d6]
+[tcn79:2300705] [14] /lib64/libc.so.6(+0x295d0)[0x1546eff005d0]
+[tcn79:2300705] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x1546eff00680]
+[tcn79:2300705] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407165]
+[tcn79:2300705] *** End of error message ***
+srun: error: tcn79: tasks 0-10: Aborted
+srun: Terminating StepId=18367451.0

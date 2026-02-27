@@ -1,0 +1,89 @@
+Job folder (/var/ear/1893935500) doesn't exist (No such file or directory), creating it...
+[EARL][tcn164][3721807] --- EARL INIT [PID: 3721807] [MASTER: 1] ---
+tcn164:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn164][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 10 processes to 128 CPUs...
+[2/10]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l10'/'ovaneck2'
+[8/10]	I'm online..
+    Node/job id/step_id/app_id: 'tcn164'/'18939355'/'0'/'3721804'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 10/1/10/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[5/10]	I'm online..
+[1/10]	I'm online..
+[6/10]	I'm online..
+[7/10]	I'm online..
+[10/10]	I'm online..
+[4/10]	I'm online..
+[9/10]	I'm online..
+[3/10]	I'm online..
+[4/10]	Finished my work in:	0.006380 us.
+[3/10]	Finished my work in:	0.006559 us.
+[5/10]	Finished my work in:	0.005545 us.
+[1/10]	Finished my work in:	0.006089 us.
+[2/10]	Finished my work in:	0.006950 us.
+[7/10]	Finished my work in:	0.006705 us.
+[8/10]	Finished my work in:	0.006098 us.
+[6/10]	Finished my work in:	0.007825 us.
+[10/10]	Finished my work in:	0.007057 us.
+[9/10]	Finished my work in:	0.007113 us.
+[34m[tcn164][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn164][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------- Application Summary [tcn164] -------------------------------------------
+--- App id: hratio_solve_remaining_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 18939355.0.3721804 ---
+
+
+(Appl. sign.) Wall time: 0.017 s, CPU util.: 285 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 10
+
+              CPI/TPI: 0.620/1.262, GB/s: 0.876, GFLOPS: 0.000, IO: 7.395 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+--------------------------------------------------------------------------------------------------------------------
+[3/10]	Finalized MPI..
+[7/10]	Finalized MPI..
+[8/10]	Finalized MPI..
+[4/10]	Finalized MPI..
+[1/10]	Finalized MPI..
+[1/10]	Merging results..
+[2/10]	Finalized MPI..
+[1/10]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results/dfs_bnb.csv
+[5/10]	Finalized MPI..
+[9/10]	Finalized MPI..
+[6/10]	Finalized MPI..
+[10/10]	Finalized MPI..

@@ -1,0 +1,221 @@
+Job: hratio_l30
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+Processing H0..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H0
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H0 in 0.001777
+Processing H1..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H1
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H1 in 0.002121
+Processing H10..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H10
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H10 in 0.001902
+Processing H11..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H11
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H11 in 0.001573
+Processing H12..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H12
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H12 in 0.036289
+Processing H13..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H13
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H13 in 0.001783
+Processing H14..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H14
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H14 in 0.001804
+Processing H15..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H15
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H15 in 0.014332
+Processing H16..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H16
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H16 in 0.001992
+Processing H17..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H17
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H17 in 0.001653
+Processing H18..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H18
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H18 in 0.002067
+Processing H19..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H19
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H19 in 0.001391
+Processing H2..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H2
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H2 in 0.001583
+Processing H20..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H20
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H20 in 0.001697
+Processing H21..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H21
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H21 in 0.133115
+Processing H22..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H22
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H22 in 0.001409
+Processing H23..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H23
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H23 in 0.001554
+Processing H24..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H24
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H24 in 0.001852
+Processing H25..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H25
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H25 in 0.001973
+Processing H26..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H26
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H26 in 0.001393
+Processing H27..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H27
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H27 in 0.001599
+Processing H28..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H28
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H28 in 0.001781
+Processing H29..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H29
+	Dimension of fold:    2
+	Lengths to fold:      30 
+
+Finished 30_H29 in 0.001761
+Processing H3..
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l30_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/30
+	Dataset extra:        H3
+	Dimension of fold:    2
+	Lengths to fold:      30 
+

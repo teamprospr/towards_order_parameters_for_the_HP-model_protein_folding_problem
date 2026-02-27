@@ -1,0 +1,13 @@
+Job: random_solve_remaining_l25
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/random_solve_remaining_l25_results
+INPUT_CSV_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing_random_l25.csv
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/random_solve_remaining_l25_results"
+	Input CSV path:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing_random_l25.csv
+	Dimension of fold:    2
+
+
+Finished  in 61.0371

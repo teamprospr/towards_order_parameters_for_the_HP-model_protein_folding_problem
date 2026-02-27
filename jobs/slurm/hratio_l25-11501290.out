@@ -1,0 +1,257 @@
+Job: hratio_l25
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+TMP_RES_PATH: /scratch-local/ovaneck2.11501290/hratio_l25_results
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l25_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+Processing H0..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H0
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H0 in 0.000795
+Processing H1..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H1
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H1 in 0.000805
+Processing H10..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H10
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H10 in 3785.1
+Processing H11..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H11
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H11 in 3224.81
+Processing H12..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H12
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H12 in 2450.77
+Processing H13..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H13
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H13 in 2660.2
+Processing H14..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H14
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H14 in 2026.28
+Processing H15..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H15
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H15 in 991.858
+Processing H16..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H16
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H16 in 930.413
+Processing H17..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H17
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H17 in 1083.33
+Processing H18..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H18
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H18 in 885.066
+Processing H19..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H19
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H19 in 746.251
+Processing H2..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H2
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H2 in 0.088005
+Processing H20..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H20
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H20 in 790.469
+Processing H21..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H21
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H21 in 856.073
+Processing H22..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H22
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H22 in 851.891
+Processing H23..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H23
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H23 in 434.356
+Processing H24..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H24
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H24 in 180.235
+Processing H25..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H25
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H25 in 121.816
+Processing H3..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H3
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H3 in 3746.96
+Processing H4..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H4
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H4 in 3656.69
+Processing H5..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H5
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H5 in 6532.14
+Processing H6..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H6
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H6 in 7662.54
+Processing H7..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H7
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H7 in 6027.13
+Processing H8..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H8
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H8 in 4678.05
+Processing H9..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.11501290/hratio_l25_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/25
+	Dataset extra:        H9
+	Dimension of fold:    2
+	Lengths to fold:      25 
+
+Finished 25_H9 in 3172.15
+
+JOB STATISTICS
+==============
+Job ID: 11501290
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 84-05:22:22
+CPU Efficiency: 97.97% of 85-23:17:20 core-walltime
+Job Wall-clock time: 16:07:10
+Memory Utilized: 5.76 GB
+Memory Efficiency: 2.57% of 224.00 GB (224.00 GB/node)
+The task which had the largest memory consumption differs by 166.92% from the average task max memory consumption
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

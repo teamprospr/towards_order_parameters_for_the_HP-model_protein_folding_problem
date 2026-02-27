@@ -1,0 +1,176 @@
+Job folder (/var/ear/1893863500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1893863500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1893863500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1893863500) doesn't exist (No such file or directory), creating it...
+[EARL][tcn174][1785027] --- EARL INIT [PID: 1785027] [MASTER: 1] ---
+tcn174:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn174][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 38 processes to 128 CPUs...
+[16/38]	I'm online..
+[18/38]	I'm online..
+[20/38]	I'm online..
+[23/38]	I'm online..
+[27/38]	I'm online..
+[30/38]	I'm online..
+[2/38]	I'm online..
+[32/38]	I'm online..
+[14/38]	I'm online..
+[19/38]	I'm online..
+[26/38]	I'm online..
+[37/38]	I'm online..
+[29/38]	I'm online..
+[21/38]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+[36/38]	I'm online..
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn174'/'18938635'/'0'/'1785027'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 38/1/38/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[13/38]	I'm online..
+[10/38]	I'm online..
+[17/38]	I'm online..
+[11/38]	I'm online..
+[35/38]	I'm online..
+[4/38]	I'm online..
+[3/38]	I'm online..
+[38/38]	I'm online..
+[24/38]	I'm online..
+[33/38]	I'm online..
+[12/38]	I'm online..
+[8/38]	I'm online..
+[22/38]	I'm online..
+[1/38]	I'm online..
+[7/38]	I'm online..
+[15/38]	I'm online..
+[25/38]	I'm online..
+[9/38]	I'm online..
+[31/38]	I'm online..
+[28/38]	I'm online..
+[34/38]	I'm online..
+[6/38]	I'm online..
+[5/38]	I'm online..
+[21/38]	Finished my work in:	0.007198 us.
+[15/38]	Finished my work in:	0.012082 us.
+[30/38]	Finished my work in:	0.010821 us.
+[13/38]	Finished my work in:	0.033499 us.
+[37/38]	Finished my work in:	0.003116 us.
+[16/38]	Finished my work in:	0.006504 us.
+[18/38]	Finished my work in:	0.022505 us.
+[2/38]	Finished my work in:	0.011305 us.
+[31/38]	Finished my work in:	0.026155 us.
+[14/38]	Finished my work in:	0.013127 us.
+[6/38]	Finished my work in:	0.026040 us.
+[35/38]	Finished my work in:	0.012924 us.
+[32/38]	Finished my work in:	0.022135 us.
+[10/38]	Finished my work in:	0.007697 us.
+[27/38]	Finished my work in:	0.006193 us.
+[7/38]	Finished my work in:	0.020213 us.
+[1/38]	Finished my work in:	0.011283 us.
+[17/38]	Finished my work in:	0.010636 us.
+[9/38]	Finished my work in:	0.005777 us.
+[19/38]	Finished my work in:	0.004801 us.
+[26/38]	Finished my work in:	0.006939 us.
+[24/38]	Finished my work in:	0.023581 us.
+[23/38]	Finished my work in:	0.018125 us.
+[12/38]	Finished my work in:	0.003982 us.
+[20/38]	Finished my work in:	0.005963 us.
+[4/38]	Finished my work in:	0.006255 us.
+[33/38]	Finished my work in:	0.008984 us.
+[3/38]	Finished my work in:	0.004573 us.
+[25/38]	Finished my work in:	0.006603 us.
+[8/38]	Finished my work in:	0.007030 us.
+[29/38]	Finished my work in:	0.006390 us.
+[38/38]	Finished my work in:	0.004445 us.
+[28/38]	Finished my work in:	0.007658 us.
+[5/38]	Finished my work in:	0.005850 us.
+[11/38]	Finished my work in:	0.005432 us.
+[22/38]	Finished my work in:	0.005589 us.
+[34/38]	Finished my work in:	0.004261 us.
+[36/38]	Finished my work in:	0.004396 us.
+[34m[tcn174][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn174][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------- Application Summary [tcn174] -------------------------------------------
+--- App id: hratio_solve_remaining_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 18938635.0.1785027 ---
+
+
+(Appl. sign.) Wall time: 0.097 s, CPU util.: 697 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 38
+
+              CPI/TPI: 0.404/0.106, GB/s: 0.042, GFLOPS: 0.000, IO: 7.055 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+--------------------------------------------------------------------------------------------------------------------
+[29/38]	Finalized MPI..
+[37/38]	Finalized MPI..
+[38/38]	Finalized MPI..
+[28/38]	Finalized MPI..
+[22/38]	Finalized MPI..
+[24/38]	Finalized MPI..
+[26/38]	Finalized MPI..
+[27/38]	Finalized MPI..
+[23/38]	Finalized MPI..
+[31/38]	Finalized MPI..
+[32/38]	Finalized MPI..
+[21/38]	Finalized MPI..
+[30/38]	Finalized MPI..
+[25/38]	Finalized MPI..
+[15/38]	Finalized MPI..
+[3/38]	Finalized MPI..
+[35/38]	Finalized MPI..
+[7/38]	Finalized MPI..
+[18/38]	Finalized MPI..
+[1/38]	Finalized MPI..
+[1/38]	Merging results..
+[1/38]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results/dfs_bnb.csv
+[34/38]	Finalized MPI..
+[10/38]	Finalized MPI..
+[33/38]	Finalized MPI..
+[11/38]	Finalized MPI..
+[9/38]	Finalized MPI..
+[16/38]	Finalized MPI..
+[19/38]	Finalized MPI..
+[17/38]	Finalized MPI..
+[36/38]	Finalized MPI..
+[13/38]	Finalized MPI..
+[20/38]	Finalized MPI..
+[8/38]	Finalized MPI..
+[12/38]	Finalized MPI..
+[14/38]	Finalized MPI..
+[2/38]	Finalized MPI..
+[5/38]	Finalized MPI..
+[6/38]	Finalized MPI..
+[4/38]	Finalized MPI..

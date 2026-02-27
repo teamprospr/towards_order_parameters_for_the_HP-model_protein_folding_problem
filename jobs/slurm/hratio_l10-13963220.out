@@ -1,0 +1,121 @@
+Job: hratio_l10
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+Processing H0..	(timeout: 470)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H0
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H0 in 0.001189
+Processing H1..	(timeout: 462)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H1
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H1 in 0.001617
+Processing H10..	(timeout: 457)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H10
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H10 in 0.001451
+Processing H2..	(timeout: 453)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H2
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H2 in 0.017909
+Processing H3..	(timeout: 447)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H3
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H3 in 0.001477
+Processing H4..	(timeout: 434)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H4
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H4 in 0.001727
+Processing H5..	(timeout: 429)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H5
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H5 in 0.00089
+Processing H6..	(timeout: 425)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H6
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H6 in 0.018324
+Processing H7..	(timeout: 419)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H7
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H7 in 0.001298
+Processing H8..	(timeout: 414)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H8
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H8 in 0.018721
+Processing H9..	(timeout: 409)
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l10_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/10
+	Dataset extra:        H9
+	Dimension of fold:    2
+	Lengths to fold:      10 
+
+Finished 10_H9 in 0.001569
+
+JOB STATISTICS
+==============
+Job ID: 13963220
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 02:50:40 core-walltime
+Job Wall-clock time: 00:01:20
+Memory Utilized: 1.06 GB
+Memory Efficiency: 0.47% of 224.00 GB (224.00 GB/node)
+The task which had the largest memory consumption differs by 115.26% from the average task max memory consumption
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

@@ -1,0 +1,213 @@
+Job folder (/var/ear/1893863100) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1893863100) doesn't exist (No such file or directory), creating it...
+[EARL][tcn309][378796] --- EARL INIT [PID: 378796] [MASTER: 1] ---
+tcn309:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn309][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 46 processes to 128 CPUs...
+Error in reports API load 
+Error in reports API initialization 
+[28/46]	I'm online..
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'random_solve_remaining_l20'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn309'/'18938631'/'0'/'378794'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+[39/46]	I'm online..
+[40/46]	I'm online..
+    Tasks/nodes/ppn/node_ratio: 46/1/46/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[30/46]	I'm online..
+[38/46]	I'm online..
+[43/46]	I'm online..
+[1/46]	I'm online..
+[10/46]	I'm online..
+[7/46]	I'm online..
+[36/46]	I'm online..
+[3/46]	I'm online..
+[12/46]	I'm online..
+[22/46]	I'm online..
+[25/46]	I'm online..
+[16/46]	I'm online..
+[15/46]	I'm online..
+[29/46]	I'm online..
+[37/46]	I'm online..
+[27/46]	I'm online..
+[5/46]	I'm online..
+[14/46]	I'm online..
+[24/46]	I'm online..
+[35/46]	I'm online..
+[26/46]	I'm online..
+[44/46]	I'm online..
+[45/46]	I'm online..
+[33/46]	I'm online..
+[46/46]	I'm online..
+[8/46]	I'm online..
+[18/46]	I'm online..
+[6/46]	I'm online..
+[11/46]	I'm online..
+[34/46]	I'm online..
+[21/46]	I'm online..
+[20/46]	I'm online..
+[9/46]	I'm online..
+[13/46]	I'm online..
+[4/46]	I'm online..
+[41/46]	I'm online..
+[17/46]	I'm online..
+[42/46]	I'm online..
+[31/46]	I'm online..
+[19/46]	I'm online..
+[32/46]	I'm online..
+[23/46]	I'm online..
+[2/46]	I'm online..
+[44/46]	Finished my work in:	0.019355 us.
+[18/46]	Finished my work in:	0.037105 us.
+[9/46]	Finished my work in:	0.111113 us.
+[23/46]	Finished my work in:	0.052650 us.
+[29/46]	Finished my work in:	0.051488 us.
+[42/46]	Finished my work in:	0.065891 us.
+[17/46]	Finished my work in:	0.134744 us.
+[11/46]	Finished my work in:	0.185460 us.
+[32/46]	Finished my work in:	0.198339 us.
+[25/46]	Finished my work in:	0.249250 us.
+[13/46]	Finished my work in:	0.242402 us.
+[37/46]	Finished my work in:	0.232793 us.
+[14/46]	Finished my work in:	0.250171 us.
+[35/46]	Finished my work in:	0.309887 us.
+[36/46]	Finished my work in:	0.382879 us.
+[16/46]	Finished my work in:	0.485047 us.
+[26/46]	Finished my work in:	0.648757 us.
+[10/46]	Finished my work in:	0.716293 us.
+[41/46]	Finished my work in:	0.866831 us.
+[46/46]	Finished my work in:	0.847503 us.
+[39/46]	Finished my work in:	0.970482 us.
+[21/46]	Finished my work in:	0.913004 us.
+[4/46]	Finished my work in:	0.944359 us.
+[20/46]	Finished my work in:	0.956143 us.
+[2/46]	Finished my work in:	0.990665 us.
+[15/46]	Finished my work in:	1.338839 us.
+[3/46]	Finished my work in:	1.303333 us.
+[1/46]	Finished my work in:	1.503895 us.
+[45/46]	Finished my work in:	1.584578 us.
+[24/46]	Finished my work in:	1.634867 us.
+[19/46]	Finished my work in:	1.636647 us.
+[34/46]	Finished my work in:	1.657873 us.
+[27/46]	Finished my work in:	1.779729 us.
+[7/46]	Finished my work in:	1.878688 us.
+[40/46]	Finished my work in:	2.138443 us.
+[43/46]	Finished my work in:	2.448407 us.
+[8/46]	Finished my work in:	2.437472 us.
+[33/46]	Finished my work in:	2.974212 us.
+[5/46]	Finished my work in:	3.704556 us.
+[38/46]	Finished my work in:	4.599810 us.
+[12/46]	Finished my work in:	5.009720 us.
+[30/46]	Finished my work in:	6.203687 us.
+[6/46]	Finished my work in:	9.737365 us.
+[22/46]	Finished my work in:	11.177686 us.
+[31/46]	Finished my work in:	13.594821 us.
+EAR[378794](random_solve_remaining_l20) at 2.60/1.00 in tcn309 MR[0] elapsed 14 sec.: [32mLoop time: 1.000s DC Power: [35m108.6W[32m DRAM power: 0.00W PCK power: 108.62W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz Next Frequency 2.60
+	CPI: 0.391 VPI: 0.00, Mem. bwidth: 0.01GB/s GFLOPS: 0.00 I/O: 0.02MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 2.40GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 746 wchar 0 syscr 44 syscw 0 read_bytes 0 write_bytes 8192
+	Aggregated application's node CPU util.: 4490
+	CPU temperature (celsius): socket 0: 52 socket 1: 56[0m
+EAR[378794](random_solve_remaining_l20) at 2.60/1.00 in tcn309 MR[0] elapsed 25 sec.: [32mLoop time: 1.100s DC Power: [35m117.3W[32m DRAM power: 0.00W PCK power: 117.35W
+	avg. CPUFreq: 0.00GHz avg. IMCFreq: 0.00GHz
+	CPI: 0.376 VPI: 0.00, Mem. bwidth: 0.00GB/s GFLOPS: 0.00 I/O: 0.00MB/s No MPI  
+	TPI 0.00 Cache miss rates: L1 1.87GB/s L2 0.00GB/s L3 0.00GB/s
+	Total MPI calls 0
+	IO DATA: rchar 57887 wchar 582 syscr 101 syscw 21 read_bytes 0 write_bytes 57344
+	Aggregated application's node CPU util.: 4512
+	CPU temperature (celsius): socket 0: 53 socket 1: 57[0m
+[28/46]	Finished my work in:	26.186067 us.
+[34m[tcn309][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------ Application Summary [tcn309] ------------------------------------------
+--- App id: random_solve_remaining_l20 / user id: ovaneck2 / account: vusei12999 / job.step: 18938631.0.378794 ---
+
+
+(Appl. sign.) Wall time: 26.564 s, CPU util.: 4506 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 46
+
+              CPI/TPI: 0.384/0.000, GB/s: 0.003, GFLOPS: 0.000, IO: 0.087 (MB/s)
+              DC/DRAM/PCK power: 112.799/0.000/109.726 (W) GFlops/Watts 0.000
+
+
+------------------------------------------------------------------------------------------------------------------
+[24/46]	Finalized MPI..
+[39/46]	Finalized MPI..
+[43/46]	Finalized MPI..
+[42/46]	Finalized MPI..
+[45/46]	Finalized MPI..
+[23/46]	Finalized MPI..
+[9/46]	Finalized MPI..
+[30/46]	Finalized MPI..
+[31/46]	Finalized MPI..
+[32/46]	Finalized MPI..
+[8/46]	Finalized MPI..
+[35/46]	Finalized MPI..
+[18/46]	Finalized MPI..
+[29/46]	Finalized MPI..
+[25/46]	Finalized MPI..
+[26/46]	Finalized MPI..
+[16/46]	Finalized MPI..
+[17/46]	Finalized MPI..
+[44/46]	Finalized MPI..
+[34/46]	Finalized MPI..
+[12/46]	Finalized MPI..
+[7/46]	Finalized MPI..
+[36/46]	Finalized MPI..
+[33/46]	Finalized MPI..
+[10/46]	Finalized MPI..
+[28/46]	Finalized MPI..
+[1/46]	Finalized MPI..
+[1/46]	Merging results..
+[1/46]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/random_solve_remaining_l20_results/dfs_bnb.csv
+[38/46]	Finalized MPI..
+[41/46]	Finalized MPI..
+[27/46]	Finalized MPI..
+[37/46]	Finalized MPI..
+[15/46]	Finalized MPI..
+[11/46]	Finalized MPI..
+[40/46]	Finalized MPI..
+[2/46]	Finalized MPI..
+[3/46]	Finalized MPI..
+[46/46]	Finalized MPI..
+[21/46]	Finalized MPI..
+[6/46]	Finalized MPI..
+[22/46]	Finalized MPI..
+[14/46]	Finalized MPI..
+[20/46]	Finalized MPI..
+[19/46]	Finalized MPI..
+[13/46]	Finalized MPI..
+[4/46]	Finalized MPI..
+[5/46]	Finalized MPI..

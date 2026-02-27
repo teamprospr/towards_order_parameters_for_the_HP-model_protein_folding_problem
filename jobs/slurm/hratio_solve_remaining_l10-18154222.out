@@ -1,0 +1,133 @@
+Job: hratio_solve_remaining_l10
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results
+INPUT_CSV_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing.csv
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results"
+	Input CSV path:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing.csv
+	Dimension of fold:    2
+
+
+Protein:
+	10
+	H7
+	4
+	PPHHHHPHHH
+Protein:
+	10
+	H7
+	21
+	HHHHHPHPPH
+Protein:
+	10
+	H7
+	2
+	HHHPHPHHPH
+Protein:
+	10
+	H7
+	9
+	HHHPHHHHPP
+Protein:
+	10
+	H7
+	12
+	HPHHPPHHHH
+Protein:
+	10
+	H7
+	8
+	HHPHHHPHHP
+Protein:
+	10
+	H7
+	3
+	HPHHPHHHPH
+Protein:
+	10
+	H7
+	14
+	HPHHHPHHPH
+Protein:
+	10
+	H7
+	17
+	PHHPHHHHHP
+Protein:
+	10
+	H7
+	16
+	HPHPHHHHPH
+Protein:
+	10
+	H7
+	22
+	HHHPHPPHHH
+Protein:
+	10
+	H7
+	15
+	PHPHPHHHHH
+Protein:
+	10
+	H7
+	7
+	HPHHHHHHPP
+Protein:
+	10
+	H7
+	10
+	HPHPHHHHHP
+Protein:
+	10
+	H7
+	11
+	PPHHHPHHHH
+Protein:
+	10
+	H7
+	6
+	HHHHHPHPHP
+Protein:
+	10
+	H7
+	5
+	HHHPHHHPHP
+Protein:
+	10
+	H7
+	0
+	HPHHHHPHHP
+Protein:
+	10
+	H7
+	19
+	HHPHHPHHPH
+Protein:
+	10
+	H7
+	23
+	HPPHHHHHPH
+Protein:
+	10
+	H7
+	13
+	HHHPPHHPHH
+Protein:
+	10
+	H7
+	1
+	HPHHHPHPHH
+Protein:
+	10
+	H7
+	18
+	HHHPPHHHPH
+Protein:
+	10
+	H7
+	20
+	HHHHHPPHPH
+Finished  in 0.00376

@@ -1,0 +1,13 @@
+Job: hratio_solve_remaining_l10
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results
+INPUT_CSV_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing.csv
+Debug Info:
+	Results path:         "/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results"
+	Input CSV path:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/missing.csv
+	Dimension of fold:    2
+
+
+Finished  in 0.006845

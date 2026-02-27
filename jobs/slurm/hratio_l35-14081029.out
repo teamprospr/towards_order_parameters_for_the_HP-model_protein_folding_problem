@@ -1,0 +1,56 @@
+Job: hratio_l35
+~ Running on Snellius..
+Setting WDIR=/home/ovaneck2/ComplexityContesters/paper_PF_hardness
+Going to run /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/dfs_bnb_mpi
+TMP_RES_PATH: /scratch-local/ovaneck2.14081029/hratio_l35_results
+FIN_RES_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_l35_results
+DATASET_PATH: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+Processing H0..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.14081029/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H0
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+Finished 35_H0 in 1.72512
+Processing H1..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.14081029/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H1
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+Finished 35_H1 in 0.000558
+Processing H10..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.14081029/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H10
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+Processing H11..
+Debug Info:
+	Results path:         "/scratch-local/ovaneck2.14081029/hratio_l35_results"
+	Dataset to use:       /home/ovaneck2/ComplexityContesters/paper_PF_hardness/data/vanEck_hratio/35
+	Dataset extra:        H11
+	Dimension of fold:    2
+	Lengths to fold:      35 
+
+
+JOB STATISTICS
+==============
+Job ID: 14081029
+Cluster: snellius
+User/Group: ovaneck2/ovaneck2
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:08
+CPU Efficiency: 0.00% of 640-00:04:16 core-walltime
+Job Wall-clock time: 5-00:00:02
+Memory Utilized: 6.31 GB
+Memory Efficiency: 2.82% of 224.00 GB (224.00 GB/node)
+The task which had the largest memory consumption differs by 157.99% from the average task max memory consumption

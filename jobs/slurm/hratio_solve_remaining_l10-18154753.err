@@ -1,0 +1,133 @@
+Job folder (/var/ear/1815475300) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1815475300) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1815475300) doesn't exist (No such file or directory), creating it...
+[EARL][tcn138][3258295] --- EARL INIT [PID: 3258295] [MASTER: 1] ---
+tcn138:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn138][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 24 processes to 128 CPUs...
+[14/24]	I'm online..
+[24/24]	I'm online..
+[21/24]	I'm online..
+[13/24]	I'm online..
+[15/24]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l10'/'ovaneck2'
+[22/24]	I'm online..
+    Node/job id/step_id/app_id: 'tcn138'/'18154753'/'0'/'3258295'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 24/1/24/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[19/24]	I'm online..
+[16/24]	I'm online..
+[17/24]	I'm online..
+[23/24]	I'm online..
+[1/24]	I'm online..
+[5/24]	I'm online..
+[18/24]	I'm online..
+[8/24]	I'm online..
+[10/24]	I'm online..
+[6/24]	I'm online..
+[12/24]	I'm online..
+[7/24]	I'm online..
+[3/24]	I'm online..
+[4/24]	I'm online..
+[11/24]	I'm online..
+[20/24]	I'm online..
+[2/24]	I'm online..
+[9/24]	I'm online..
+[8/24]	Finished my work in:	0.009957 us.
+[20/24]	Finished my work in:	0.006265 us.
+[22/24]	Finished my work in:	0.014345 us.
+[19/24]	Finished my work in:	0.005667 us.
+[14/24]	Finished my work in:	0.009567 us.
+[10/24]	Finished my work in:	0.003907 us.
+[13/24]	Finished my work in:	0.005178 us.
+[16/24]	Finished my work in:	0.009747 us.
+[9/24]	Finished my work in:	0.003953 us.
+[4/24]	Finished my work in:	0.004811 us.
+[21/24]	Finished my work in:	0.004095 us.
+[2/24]	Finished my work in:	0.003257 us.
+[11/24]	Finished my work in:	0.006105 us.
+[6/24]	Finished my work in:	0.003139 us.
+[12/24]	Finished my work in:	0.009203 us.
+[7/24]	Finished my work in:	0.007131 us.
+[24/24]	Finished my work in:	0.003674 us.
+[17/24]	Finished my work in:	0.004411 us.
+[23/24]	Finished my work in:	0.003858 us.
+[1/24]	Finished my work in:	0.004582 us.
+[5/24]	Finished my work in:	0.004076 us.
+[3/24]	Finished my work in:	0.004426 us.
+[15/24]	Finished my work in:	0.004597 us.
+[18/24]	Finished my work in:	0.004690 us.
+[34m[tcn138][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn138][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------- Application Summary [tcn138] -------------------------------------------
+--- App id: hratio_solve_remaining_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 18154753.0.3258295 ---
+
+
+(Appl. sign.) Wall time: 0.044 s, CPU util.: 590 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 24
+
+              CPI/TPI: 0.421/2.614, GB/s: 0.345, GFLOPS: 0.000, IO: 6.286 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+--------------------------------------------------------------------------------------------------------------------
+[10/24]	Finalized MPI..
+[12/24]	Finalized MPI..
+[15/24]	Finalized MPI..
+[16/24]	Finalized MPI..
+[13/24]	Finalized MPI..
+[14/24]	Finalized MPI..
+[11/24]	Finalized MPI..
+[20/24]	Finalized MPI..
+[17/24]	Finalized MPI..
+[19/24]	Finalized MPI..
+[21/24]	Finalized MPI..
+[5/24]	Finalized MPI..
+[9/24]	Finalized MPI..
+[4/24]	Finalized MPI..
+[23/24]	Finalized MPI..
+[22/24]	Finalized MPI..
+[24/24]	Finalized MPI..
+[18/24]	Finalized MPI..
+[2/24]	Finalized MPI..
+[8/24]	Finalized MPI..
+[3/24]	Finalized MPI..
+[7/24]	Finalized MPI..
+[6/24]	Finalized MPI..
+[1/24]	Finalized MPI..
+[1/24]	Merging results..
+[1/24]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l10_results/dfs_bnb.csv

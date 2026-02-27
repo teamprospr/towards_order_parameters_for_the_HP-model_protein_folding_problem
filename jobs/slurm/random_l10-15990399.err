@@ -1,0 +1,84 @@
+[EARL][tcn457][929642] --- EARL INIT [PID: 929642] [MASTER: 1] ---
+[34m[tcn457][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: EARD
+MGT_IMCFREQ: EARD
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: EARD
+MET_IMCFREQ: EARD
+MET_ENERGY : EARD
+MET_TEMP:    AMD17
+MET_BWIDTH : EARD
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 16 processes to 128 CPUs...
+[3/16]	I'm online..
+[4/16]	I'm online..
+[9/16]	I'm online..
+[14/16]	I'm online..
+[10/16]	I'm online..
+[8/16]	I'm online..
+[11/16]	I'm online..
+[12/16]	I'm online..
+[13/16]	I'm online..
+[15/16]	I'm online..
+[2/16]	I'm online..
+[6/16]	I'm online..
+[5/16]	I'm online..
+[7/16]	I'm online..
+[16/16]	I'm online..
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'random_l10'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn457'/'15990399'/'0'/'929642'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 16/1/16/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 0
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[1/16]	I'm online..
+[34m[tcn457][0][INFO] [0mWarning: Estimated power 161.35 W (DC vs CPU+GPU 1.00)
+[34m[tcn457][0][INFO] [0mScope APP master 1 elapsed 0.000000
+---------------------------------- Application Summary [tcn457] ----------------------------------
+--- App id: random_l10 / user id: ovaneck2 / account: vusei12999 / job.step: 15990399.0.929642 ---
+
+
+(Appl. sign.) Wall time: 0.045 s, CPU util.: 242 %, nominal freq.: 2.60 GHz, avg. freq: 2.57 GHz, avg imc freq: 1.47 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 16
+
+              CPI/TPI: 0.518/30.333, GB/s: 2.562, GFLOPS: 0.000, IO: 4.288 (MB/s)
+              DC/DRAM/PCK power: 161.333/0.000/161.352 (W) GFlops/Watts 0.000
+
+
+--------------------------------------------------------------------------------------------------
+[7/16]	Finalized MPI..
+[12/16]	Finalized MPI..
+[9/16]	Finalized MPI..
+[10/16]	Finalized MPI..
+[13/16]	Finalized MPI..
+[14/16]	Finalized MPI..
+[11/16]	Finalized MPI..
+[5/16]	Finalized MPI..
+[16/16]	Finalized MPI..
+[15/16]	Finalized MPI..
+[2/16]	Finalized MPI..
+[1/16]	Finalized MPI..
+[6/16]	Finalized MPI..
+[3/16]	Finalized MPI..
+[4/16]	Finalized MPI..
+[8/16]	Finalized MPI..

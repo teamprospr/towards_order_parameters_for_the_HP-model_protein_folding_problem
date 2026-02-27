@@ -1,0 +1,162 @@
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1814963500) doesn't exist (No such file or directory), creating it...
+[EARL][tcn70][195308] --- EARL INIT [PID: 195308] [MASTER: 1] ---
+tcn70:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn70][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 24 processes to 128 CPUs...
+[14/24]	I'm online..
+[20/24]	I'm online..
+[15/24]	I'm online..
+[3/24]	I'm online..
+[18/24]	I'm online..
+[7/24]	I'm online..
+[9/24]	I'm online..
+[11/24]	I'm online..
+[12/24]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn70'/'18149635'/'0'/'195308'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 24/1/24/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[19/24]	I'm online..
+[17/24]	I'm online..
+[5/24]	I'm online..
+[6/24]	I'm online..
+[21/24]	I'm online..
+[2/24]	I'm online..
+[13/24]	I'm online..
+[22/24]	I'm online..
+[23/24]	I'm online..
+[1/24]	I'm online..
+[4/24]	I'm online..
+[10/24]	I'm online..
+[8/24]	I'm online..
+[24/24]	I'm online..
+[16/24]	I'm online..
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r17
+[18/24]	Finished my work in:	0.018506 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r8
+[9/24]	Finished my work in:	0.019458 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r7
+[8/24]	Finished my work in:	0.018800 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r6
+[7/24]	Finished my work in:	0.020472 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r14
+[15/24]	Finished my work in:	0.020802 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r19
+[20/24]	Finished my work in:	0.021004 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r13
+[14/24]	Finished my work in:	0.021246 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r2
+[3/24]	Finished my work in:	0.021968 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r18
+[19/24]	Finished my work in:	0.021394 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r16
+[17/24]	Finished my work in:	0.021728 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r4
+[5/24]	Finished my work in:	0.021789 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r1
+[2/24]	Finished my work in:	0.021811 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r5
+[6/24]	Finished my work in:	0.022499 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r9
+[10/24]	Finished my work in:	0.022462 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r20
+[21/24]	Finished my work in:	0.022738 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r0
+[1/24]	Finished my work in:	0.023181 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r10
+[11/24]	Finished my work in:	0.024268 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r21
+[22/24]	Finished my work in:	0.023389 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r12
+[13/24]	Finished my work in:	0.023804 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r15
+[16/24]	Finished my work in:	0.023595 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r3
+[4/24]	Finished my work in:	0.024369 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r22
+[23/24]	Finished my work in:	0.024285 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r11
+[12/24]	Finished my work in:	0.024460 us.
+Results written to: /home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb_r23
+[24/24]	Finished my work in:	0.024640 us.
+[34m[tcn70][0][INFO] [0mWarning: Estimated power 0.00 W (DC vs CPU+GPU 1.00)
+[34m[tcn70][0][INFO] [0mScope APP master 1 elapsed 0.000000
+------------------------------------------- Application Summary [tcn70] -------------------------------------------
+--- App id: hratio_solve_remaining_l30 / user id: ovaneck2 / account: vusei12999 / job.step: 18149635.0.195308 ---
+
+
+(Appl. sign.) Wall time: 0.052 s, CPU util.: 413 %, nominal freq.: 2.60 GHz, avg. freq: 0.00 GHz, avg imc freq: 0.00 GHz
+              Avg. mpi_time/exec_time 0.0 %
+
+              tasks: 24
+
+              CPI/TPI: 0.441/1.809, GB/s: 0.528, GFLOPS: 0.000, IO: 9.116 (MB/s)
+              DC/DRAM/PCK power: 0.000/0.000/0.000 (W) GFlops/Watts inf
+
+
+-------------------------------------------------------------------------------------------------------------------
+[14/24]	Finalized MPI..
+[13/24]	Finalized MPI..
+[16/24]	Finalized MPI..
+[17/24]	Finalized MPI..
+[15/24]	Finalized MPI..
+[11/24]	Finalized MPI..
+[10/24]	Finalized MPI..
+[22/24]	Finalized MPI..
+[18/24]	Finalized MPI..
+[20/24]	Finalized MPI..
+[23/24]	Finalized MPI..
+[24/24]	Finalized MPI..
+[19/24]	Finalized MPI..
+[7/24]	Finalized MPI..
+[9/24]	Finalized MPI..
+[5/24]	Finalized MPI..
+[12/24]	Finalized MPI..
+[21/24]	Finalized MPI..
+[4/24]	Finalized MPI..
+[6/24]	Finalized MPI..
+[8/24]	Finalized MPI..
+[2/24]	Finalized MPI..
+[1/24]	Finalized MPI..
+[1/24]	Merging results..
+[1/24]	Writing results to:	/home/ovaneck2/ComplexityContesters/paper_PF_hardness/jobs/hratio_solve_remaining_l30_resultsdfs_bnb.csv
+[3/24]	Finalized MPI..

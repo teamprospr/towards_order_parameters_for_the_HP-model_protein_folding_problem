@@ -1,0 +1,310 @@
+Job folder (/var/ear/1836796400) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836796400) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836796400) doesn't exist (No such file or directory), creating it...
+Job folder (/var/ear/1836796400) doesn't exist (No such file or directory), creating it...
+[EARL][tcn428][1502002] --- EARL INIT [PID: 1502002] [MASTER: 1] ---
+tcn428:some EARD is not running (connected nodes 0 expected 1)
+
+[34m[tcn428][0][INFO] [0mK-medoids & roofline strategies not available. Loading default model for the classification
+--- EARL loaded APIs ---
+MGT_CPUFREQ: DUMMY
+MGT_IMCFREQ: DUMMY
+MGT_PRIO   : DUMMY
+MET_CPUFREQ: DUMMY
+MET_IMCFREQ: DUMMY
+MET_ENERGY : CPUMODEL
+MET_TEMP:    AMD17
+MET_BWIDTH : DUMMY
+MET_FLOPS  : PERF
+MET_CPI    : PERF
+MGT_GPU    : DUMMY
+MET_GPU    : DUMMY
+L1D: loaded (event PERF_L1D_MISS_LD) 
+L2 : loaded (event L2_MISS_FROM_DC) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF1) (also in LBW)
+L2 : loaded (event L2_MISS_FROM_PF2) (also in LBW)
+
+------------------------
+Mapping frequencies from 11 processes to 128 CPUs...
+[10/11]	I'm online..
+[11/11]	I'm online..
+Error in reports API load 
+Error in reports API initialization 
+---------------- EAR 5.2 MPI enabled ----------------
+                   App/user id: 'hratio_solve_remaining_l30'/'ovaneck2'
+    Node/job id/step_id/app_id: 'tcn428'/'18367964'/'0'/'1502002'
+     P_STATE/frequency (turbo): 0/2600000 (0)
+    Tasks/nodes/ppn/node_ratio: 11/1/11/1.000
+             Policy (learning): monitoring (0)
+Policy threshold/Perf accuracy: 0.00/10000000.00
+   DynAIS levels/window/AVX512: 10/200/2
+                      VAR path: /var/ear
+           EAR privileged user: 1
+[7/11]	I'm online..
+                       EARL on: 1 
+                  Max CPU freq: 2600000
+-------------------------------------------------------
+EAR initialized successfully.
+[8/11]	I'm online..
+[4/11]	I'm online..
+[6/11]	I'm online..
+[5/11]	I'm online..
+[9/11]	I'm online..
+[1/11]	I'm online..
+[3/11]	I'm online..
+[2/11]	I'm online..
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn428:1502002] *** Process received signal ***
+[tcn428:1502002] Signal: Aborted (6)
+[tcn428:1502002] Signal code:  (-6)
+[tcn428:1502002] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14e898f16bf0]
+[tcn428:1502002] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14e898f63edc]
+[tcn428:1502002] [ 2] /lib64/libc.so.6(raise+0x16)[0x14e898f16b46]
+[tcn428:1502002] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14e898f00833]
+[tcn428:1502002] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14e8992a3c0b]
+[tcn428:1502002] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14e8992b315a]
+[tcn428:1502002] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14e8992b31c5]
+[tcn428:1502002] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14e8992b3418]
+[tcn428:1502002] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14e8992a64d8]
+[tcn428:1502002] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502002] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502002] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502002] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502002] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502002] [14] /lib64/libc.so.6(+0x295d0)[0x14e898f015d0]
+[tcn428:1502002] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14e898f01680]
+[tcn428:1502002] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502002] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn428:1502005] *** Process received signal ***
+[tcn428:1502005] Signal: Aborted (6)
+[tcn428:1502005] Signal code:  (-6)
+[tcn428:1502005] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x150fb2322bf0]
+[tcn428:1502005] [ 1] /lib64/libc.so.6(+0x8bedc)[0x150fb236fedc]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502005] [ 2] /lib64/libc.so.6(raise+0x16)[0x150fb2322b46]
+[tcn428:1502005] [ 3] /lib64/libc.so.6(abort+0xd3)[0x150fb230c833]
+  what():  stoi
+[tcn428:1502011] *** Process received signal ***
+[tcn428:1502011] Signal: Aborted (6)
+[tcn428:1502011] Signal code:  (-6)
+[tcn428:1502005] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x150fb26afc0b]
+[tcn428:1502005] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x150fb26bf15a]
+[tcn428:1502011] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x155253bfabf0]
+[tcn428:1502005] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x150fb26bf1c5]
+[tcn428:1502011] [ 1] /lib64/libc.so.6(+0x8bedc)[0x155253c47edc]
+[tcn428:1502005] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x150fb26bf418]
+[tcn428:1502011] [ 2] /lib64/libc.so.6(raise+0x16)[0x155253bfab46]
+[tcn428:1502005] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x150fb26b24d8]
+[tcn428:1502005] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502005] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502005] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502005] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502005] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502011] [ 3] /lib64/libc.so.6(abort+0xd3)[0x155253be4833]
+[tcn428:1502011] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x155253f87c0b]
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn428:1502005] [14] /lib64/libc.so.6(+0x295d0)[0x150fb230d5d0]
+[tcn428:1502005] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x150fb230d680]
+[tcn428:1502005] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502005] *** End of error message ***
+[tcn428:1502004] *** Process received signal ***
+[tcn428:1502004] Signal: Aborted (6)
+[tcn428:1502004] Signal code:  (-6)
+[tcn428:1502004] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x145f8b669bf0]
+[tcn428:1502004] [ 1] /lib64/libc.so.6(+0x8bedc)[0x145f8b6b6edc]
+[tcn428:1502011] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x155253f9715a]
+[tcn428:1502011] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x155253f971c5]
+[tcn428:1502011] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x155253f97418]
+[tcn428:1502011] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x155253f8a4d8]
+[tcn428:1502011] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502011] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502011] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502011] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502011] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502004] [ 2] /lib64/libc.so.6(raise+0x16)[0x145f8b669b46]
+[tcn428:1502004] [ 3] /lib64/libc.so.6(abort+0xd3)[0x145f8b653833]
+[tcn428:1502011] [14] /lib64/libc.so.6(+0x295d0)[0x155253be55d0]
+[tcn428:1502011] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x155253be5680]
+[tcn428:1502011] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502011] *** End of error message ***
+[tcn428:1502004] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x145f8b9f6c0b]
+[tcn428:1502004] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x145f8ba0615a]
+[tcn428:1502004] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x145f8ba061c5]
+[tcn428:1502004] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x145f8ba06418]
+[tcn428:1502004] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x145f8b9f94d8]
+[tcn428:1502004] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502004] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502004] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502004] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502004] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502004] [14] /lib64/libc.so.6(+0x295d0)[0x145f8b6545d0]
+[tcn428:1502004] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x145f8b654680]
+[tcn428:1502004] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502004] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn428:1502006] *** Process received signal ***
+[tcn428:1502006] Signal: Aborted (6)
+[tcn428:1502006] Signal code:  (-6)
+[tcn428:1502006] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14c154a49bf0]
+[tcn428:1502006] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14c154a96edc]
+[tcn428:1502006] [ 2] /lib64/libc.so.6(raise+0x16)[0x14c154a49b46]
+[tcn428:1502006] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14c154a33833]
+[tcn428:1502006] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14c154dd6c0b]
+[tcn428:1502006] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14c154de615a]
+[tcn428:1502006] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14c154de61c5]
+[tcn428:1502006] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14c154de6418]
+[tcn428:1502006] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14c154dd94d8]
+[tcn428:1502006] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502006] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502006] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502006] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502006] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502006] [14] /lib64/libc.so.6(+0x295d0)[0x14c154a345d0]
+[tcn428:1502006] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c154a34680]
+[tcn428:1502006] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+  what():  stoi
+[tcn428:1502006] *** End of error message ***
+[tcn428:1502012] *** Process received signal ***
+[tcn428:1502012] Signal: Aborted (6)
+[tcn428:1502012] Signal code:  (-6)
+[tcn428:1502012] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14cd11511bf0]
+[tcn428:1502012] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14cd1155eedc]
+[tcn428:1502012] [ 2] /lib64/libc.so.6(raise+0x16)[0x14cd11511b46]
+[tcn428:1502012] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14cd114fb833]
+[tcn428:1502012] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14cd1189ec0b]
+[tcn428:1502012] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14cd118ae15a]
+[tcn428:1502012] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14cd118ae1c5]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502012] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14cd118ae418]
+[tcn428:1502012] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14cd118a14d8]
+[tcn428:1502012] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502012] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502012] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502012] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502012] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+  what():  stoi
+[tcn428:1502008] *** Process received signal ***
+[tcn428:1502012] [14] /lib64/libc.so.6(+0x295d0)[0x14cd114fc5d0]
+[tcn428:1502008] Signal: Aborted (6)
+[tcn428:1502008] Signal code:  (-6)
+[tcn428:1502012] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14cd114fc680]
+[tcn428:1502012] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502012] *** End of error message ***
+[tcn428:1502008] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x1548fac74bf0]
+[tcn428:1502008] [ 1] /lib64/libc.so.6(+0x8bedc)[0x1548facc1edc]
+[tcn428:1502008] [ 2] /lib64/libc.so.6(raise+0x16)[0x1548fac74b46]
+[tcn428:1502008] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1548fac5e833]
+[tcn428:1502008] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x1548fb001c0b]
+[tcn428:1502008] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x1548fb01115a]
+[tcn428:1502008] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x1548fb0111c5]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502008] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x1548fb011418]
+  what():  stoi
+[tcn428:1502009] *** Process received signal ***
+[tcn428:1502009] Signal: Aborted (6)
+[tcn428:1502009] Signal code:  (-6)
+[tcn428:1502008] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x1548fb0044d8]
+[tcn428:1502008] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502008] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502008] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502008] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502008] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502008] [14] /lib64/libc.so.6(+0x295d0)[0x1548fac5f5d0]
+[tcn428:1502008] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x1548fac5f680]
+[tcn428:1502008] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502008] *** End of error message ***
+[tcn428:1502009] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14d5513febf0]
+[tcn428:1502009] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14d55144bedc]
+[tcn428:1502009] [ 2] /lib64/libc.so.6(raise+0x16)[0x14d5513feb46]
+[tcn428:1502009] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14d5513e8833]
+[tcn428:1502009] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14d55178bc0b]
+[tcn428:1502009] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14d55179b15a]
+[tcn428:1502009] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14d55179b1c5]
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502009] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14d55179b418]
+  what():  stoi
+[tcn428:1502007] *** Process received signal ***
+[tcn428:1502007] Signal: Aborted (6)
+[tcn428:1502007] Signal code:  (-6)
+[tcn428:1502009] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14d55178e4d8]
+[tcn428:1502009] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502009] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502009] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502009] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502009] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502009] [14] /lib64/libc.so.6(+0x295d0)[0x14d5513e95d0]
+[tcn428:1502009] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14d5513e9680]
+[tcn428:1502009] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502009] *** End of error message ***
+[tcn428:1502007] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14838f302bf0]
+[tcn428:1502007] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14838f34fedc]
+[tcn428:1502007] [ 2] /lib64/libc.so.6(raise+0x16)[0x14838f302b46]
+[tcn428:1502007] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14838f2ec833]
+[tcn428:1502007] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14838f68fc0b]
+[tcn428:1502007] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14838f69f15a]
+[tcn428:1502007] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14838f69f1c5]
+[tcn428:1502007] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14838f69f418]
+[tcn428:1502007] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14838f6924d8]
+[tcn428:1502007] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502007] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502007] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502007] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502007] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502007] [14] /lib64/libc.so.6(+0x295d0)[0x14838f2ed5d0]
+[tcn428:1502007] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14838f2ed680]
+[tcn428:1502007] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502007] *** End of error message ***
+terminate called after throwing an instance of 'std::out_of_range'
+  what():  stoi
+[tcn428:1502010] *** Process received signal ***
+[tcn428:1502010] Signal: Aborted (6)
+[tcn428:1502010] Signal code:  (-6)
+terminate called after throwing an instance of 'std::out_of_range'
+[tcn428:1502010] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14d4d8b27bf0]
+  what():  stoi
+[tcn428:1502003] *** Process received signal ***
+[tcn428:1502010] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14d4d8b74edc]
+[tcn428:1502003] Signal: Aborted (6)
+[tcn428:1502003] Signal code:  (-6)
+[tcn428:1502010] [ 2] /lib64/libc.so.6(raise+0x16)[0x14d4d8b27b46]
+[tcn428:1502003] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14a541b20bf0]
+[tcn428:1502003] [ 1] /lib64/libc.so.6(+0x8bedc)[0x14a541b6dedc]
+[tcn428:1502003] [ 2] /lib64/libc.so.6(raise+0x16)[0x14a541b20b46]
+[tcn428:1502010] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14d4d8b11833]
+[tcn428:1502010] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14d4d8eb4c0b]
+[tcn428:1502010] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14d4d8ec415a]
+[tcn428:1502003] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14a541b0a833]
+[tcn428:1502010] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14d4d8ec41c5]
+[tcn428:1502003] [ 4] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xacc0b)[0x14a541eadc0b]
+[tcn428:1502010] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14d4d8ec4418]
+[tcn428:1502003] [ 5] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc15a)[0x14a541ebd15a]
+[tcn428:1502010] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14d4d8eb74d8]
+[tcn428:1502010] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502010] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502010] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502010] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502010] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502010] [14] /lib64/libc.so.6(+0x295d0)[0x14d4d8b125d0]
+[tcn428:1502003] [ 6] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc1c5)[0x14a541ebd1c5]
+[tcn428:1502010] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14d4d8b12680]
+[tcn428:1502010] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502010] *** End of error message ***
+[tcn428:1502003] [ 7] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(+0xbc418)[0x14a541ebd418]
+[tcn428:1502003] [ 8] /sw/arch/RHEL9/EB_production/2024/software/GCCcore/13.3.0/lib64/libstdc++.so.6(_ZSt20__throw_out_of_rangePKc+0x40)[0x14a541eb04d8]
+[tcn428:1502003] [ 9] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41855a]
+[tcn428:1502003] [10] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4194d3]
+[tcn428:1502003] [11] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x41bdc6]
+[tcn428:1502003] [12] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x408772]
+[tcn428:1502003] [13] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x4068e6]
+[tcn428:1502003] [14] /lib64/libc.so.6(+0x295d0)[0x14a541b0b5d0]
+[tcn428:1502003] [15] /lib64/libc.so.6(__libc_start_main+0x80)[0x14a541b0b680]
+[tcn428:1502003] [16] /home/ovaneck2/ComplexityContesters/paper_PF_hardness/code/experiments/solve_remaining[0x407175]
+[tcn428:1502003] *** End of error message ***
+srun: error: tcn428: tasks 0-10: Aborted
+srun: Terminating StepId=18367964.0
