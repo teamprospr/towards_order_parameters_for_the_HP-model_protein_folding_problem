@@ -1,0 +1,2 @@
+protein_id,algorithm,time,score,checked,placed,hash
+0,dfs_bnb_mpi,0.12729,-8,8,29382,"[-1, -1, 2, 2, 2, 2, 1, 1, -2, -1, -2, 1, -2, -1]"
