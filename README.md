@@ -57,6 +57,7 @@ That is why there is the `solve_remaining` code which takes a CSV as input for s
 The subdirectories (e.g. `jobs/hratio_l10_results/`) contain the results from our experiments, which are used by the code in the other directories.
 The `jobs/slurm/` directory contains the slurm .out and .err files of our experiments.
 These also contain some test executions, and thus do not fully correspond with soley folding the proteins.
+Moreover, they contain references to our users and datasets, and thus you should **NOT** open these files to maintain the anonymity.
 
 ## Installing requirements
 
