@@ -1,9 +1,4 @@
 #! /usr/bin/env python3
-"""
-File:           fig3_fit_probit.py
-Description:    Plot the hardness distributions of both datasets side-by-side,
-                and fit a probit for each length.
-"""
 # System packages.
 import math
 import os
@@ -261,8 +256,8 @@ def plot_probits():
     showing the development of the params across lengths.
     """
     # Load data for both figures.
-    hratio_data = get_data("hratio")
     random_data = get_data("random")
+    hratio_data = get_data("hratio")
 
     # Create subplots for lines and R^2 values.
     # Setup figure details, following:
@@ -276,20 +271,20 @@ def plot_probits():
     # Plot H-ratio and random figures.
     legend_pos = "right"
     plot_data(
-        hratio_data,
-        r"$\mathcal{D}_{\text{\texttt{H}-ratio}}$",
+        random_data,
+        r"$\mathcal{D}_{\text{random}}$",
         axs[1,0],
         axs[0,0],
         annotate_y=True,
-        plot_legend=""
+        plot_legend="",
     )
     plot_data(
-        random_data,
-        r"$\mathcal{D}_{\text{random}}$",
+        hratio_data,
+        r"$\mathcal{D}_{\text{\texttt{H}-ratio}}$",
         axs[1,1],
         axs[0,1],
         annotate_y=False,
-        plot_legend=legend_pos
+        plot_legend=legend_pos,
     )
 
     # Style overall figure and save.
