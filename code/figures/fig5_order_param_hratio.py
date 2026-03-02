@@ -89,11 +89,12 @@ def fit_hardest(df: pd.DataFrame):
 
     # Compute the R^2 goodness-of-fit score.
     ys_pred = genextreme.pdf(df_max["h_ratio"], *popt)
-    ys_pred *= df_max["placed"].max() / max(ys_pred)
+    scaler = df_max["placed"].max() / max(ys_pred)
+    ys_pred *= scaler
     r2 = r2_score(df_max["placed"], ys_pred)
     print(f"R^2: {r2:.2f}")
 
-    return xs, ys, r2
+    return xs, ys, popt, scaler, r2
 
 
 def lighten_color(color, amount=0.5):
@@ -169,8 +170,22 @@ def plot_results_length(
     )
 
     # Fit the envelope of max values and plot the line.
-    xs_fit, ys_fit, r2 = fit_hardest(df)
+    xs_fit, ys_fit, popt, scaler, r2 = fit_hardest(df)
     ax.plot(xs_fit, ys_fit, "--", lw=0.75, c=lighten_color(color), zorder=-1)
+
+    # Add vline on the location param to indicate estimated order param values.
+    ymax = genextreme.pdf(popt[1], *popt) * scaler
+    if length > 15:
+        ymax -= 600000
+    ax.vlines(
+        popt[1],
+        ymin=0,
+        ymax=ymax,
+        color="dimgray",
+        linestyle="--",
+        zorder=-3,
+        linewidth=0.5,
+    )
 
     # Add R^2 score as text.
     x_coord = 0.93 if color_idx > 1 else 0.07
