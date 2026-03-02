@@ -174,18 +174,17 @@ def plot_results_length(
     ax.plot(xs_fit, ys_fit, "--", lw=0.75, c=lighten_color(color), zorder=-1)
 
     # Add vline on the location param to indicate estimated order param values.
-    ymax = genextreme.pdf(popt[1], *popt) * scaler
     if length > 15:
-        ymax -= 600000
-    ax.vlines(
-        popt[1],
-        ymin=0,
-        ymax=ymax,
-        color="dimgray",
-        linestyle="--",
-        zorder=-3,
-        linewidth=0.5,
-    )
+        ymax = genextreme.pdf(popt[1], *popt) * scaler - 600000
+        ax.vlines(
+            popt[1],
+            ymin=0,
+            ymax=ymax,
+            color="dimgray",
+            linestyle="--",
+            zorder=-3,
+            linewidth=0.4,
+        )
 
     # Add R^2 score as text.
     x_coord = 0.93 if color_idx > 1 else 0.07
