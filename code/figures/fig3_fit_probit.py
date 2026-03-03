@@ -189,7 +189,7 @@ def plot_data(data: dict, title: str, ax_line: Axes, ax_r2: Axes, annotate_y: bo
         box = ax_line.get_position()
         ax_line.set_position((box.x0, box.y0, box.width * 0.8, box.height))
 
-        # Put a legend to the right of axis.
+        # Put a legend to the left of the axis.
         ax_line.legend(
             handles,
             labels,
@@ -198,12 +198,13 @@ def plot_data(data: dict, title: str, ax_line: Axes, ax_r2: Axes, annotate_y: bo
             loc="center right",
             frameon=True,
             bbox_to_anchor=(0.0, 0.5),
+            title="Length",
         )
     elif plot_legend == "right":
         box = ax_line.get_position()
         ax_line.set_position((box.x0, box.y0, box.width * 0.8, box.height))
 
-        # Put a legend to the right of axis.
+        # Put a legend to the right of the axis.
         ax_line.legend(
             handles,
             labels,
@@ -212,6 +213,7 @@ def plot_data(data: dict, title: str, ax_line: Axes, ax_r2: Axes, annotate_y: bo
             loc="center left",
             frameon=True,
             bbox_to_anchor=(1.0, 0.5),
+            title="Length",
         )
 
     # Plot R^2 values

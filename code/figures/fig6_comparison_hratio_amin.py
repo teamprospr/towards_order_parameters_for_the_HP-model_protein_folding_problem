@@ -122,7 +122,7 @@ def plot_max_trace(df: pd.DataFrame, order_param: str, xlabel: str, ax: Axes, pl
         box = ax.get_position()
         ax.set_position((box.x0, box.y0, box.width * 0.8, box.height))
 
-        # Put a legend to the right of axis.
+        # Put a legend to the left of the axis.
         ax.legend(
             handles,
             labels,
@@ -131,6 +131,7 @@ def plot_max_trace(df: pd.DataFrame, order_param: str, xlabel: str, ax: Axes, pl
             loc="center right",
             frameon=True,
             bbox_to_anchor=(0.0, 0.5),
+            title="Length",
         )
     elif plot_legend == "right":
         box = ax.get_position()
@@ -145,6 +146,7 @@ def plot_max_trace(df: pd.DataFrame, order_param: str, xlabel: str, ax: Axes, pl
             loc="center left",
             frameon=True,
             bbox_to_anchor=(1.0, 0.5),
+            title="Length",
         )
     else:
         # Legend is plotted with the right axis, so the left plots Ylabel.
