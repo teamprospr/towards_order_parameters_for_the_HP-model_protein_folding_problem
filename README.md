@@ -2,10 +2,8 @@
 
 This is an anonymized repository for the paper: Towards Order Parameters for the HP-Model Protein Folding Problem.
 It offers the bare minimum code required for reproducing the required results and generating the figures used in the paper.
-
-The code uses a protein folding framework called PROSPR.
-We wrote this framework and made it open source available on GitHub under one of our public users.
-This is an explicit note to **NOT** look up the framework for maintaining the anonymity.
+The code uses a protein folding framework called PROSPR, which is linked as a submodule. 
+It is open-source available on GitHub at: [https://github.com/OkkeVanEck/prospr](https://github.com/OkkeVanEck/prospr).
 
 ## Directory structure
 
